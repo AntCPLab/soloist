@@ -1,0 +1,1 @@
+{"rustc":6330532713478783523,"features":"[]","declared_features":"[]","target":11187303652147478063,"profile":2347818385679194457,"path":8209028540418355651,"deps":[],"local":[{"CheckDepInfo":{"dep_info":"release/.fingerprint/colorchoice-6af701a6f99bbc2c/dep-lib-colorchoice","checksum":false}}],"rustflags":["-C","target-cpu=native"],"config":2069994364910194474,"compile_kind":0}

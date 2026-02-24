@@ -1,0 +1,15 @@
+/root/DeSNARK_R1CS/target/release/deps/libzerocopy-76feb2002186427f.rmeta: /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/zerocopy-0.7.35/src/lib.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/zerocopy-0.7.35/src/macros.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/zerocopy-0.7.35/src/macro_util.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/zerocopy-0.7.35/src/post_monomorphization_compile_fail_tests.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/zerocopy-0.7.35/src/util.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/zerocopy-0.7.35/src/third_party/rust/layout.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/zerocopy-0.7.35/src/wrappers.rs
+
+/root/DeSNARK_R1CS/target/release/deps/libzerocopy-76feb2002186427f.rlib: /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/zerocopy-0.7.35/src/lib.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/zerocopy-0.7.35/src/macros.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/zerocopy-0.7.35/src/macro_util.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/zerocopy-0.7.35/src/post_monomorphization_compile_fail_tests.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/zerocopy-0.7.35/src/util.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/zerocopy-0.7.35/src/third_party/rust/layout.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/zerocopy-0.7.35/src/wrappers.rs
+
+/root/DeSNARK_R1CS/target/release/deps/zerocopy-76feb2002186427f.d: /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/zerocopy-0.7.35/src/lib.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/zerocopy-0.7.35/src/macros.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/zerocopy-0.7.35/src/macro_util.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/zerocopy-0.7.35/src/post_monomorphization_compile_fail_tests.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/zerocopy-0.7.35/src/util.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/zerocopy-0.7.35/src/third_party/rust/layout.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/zerocopy-0.7.35/src/wrappers.rs
+
+/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/zerocopy-0.7.35/src/lib.rs:
+/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/zerocopy-0.7.35/src/macros.rs:
+/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/zerocopy-0.7.35/src/macro_util.rs:
+/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/zerocopy-0.7.35/src/post_monomorphization_compile_fail_tests.rs:
+/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/zerocopy-0.7.35/src/util.rs:
+/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/zerocopy-0.7.35/src/third_party/rust/layout.rs:
+/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/zerocopy-0.7.35/src/wrappers.rs:
+
+# env-dep:CARGO_PKG_VERSION=0.7.35

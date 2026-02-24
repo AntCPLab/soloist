@@ -1,0 +1,11 @@
+/root/DeSNARK_R1CS/target/release/deps/libunicode_segmentation-22a0171aa7447989.rmeta: /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/unicode-segmentation-1.12.0/src/lib.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/unicode-segmentation-1.12.0/src/grapheme.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/unicode-segmentation-1.12.0/src/sentence.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/unicode-segmentation-1.12.0/src/word.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/unicode-segmentation-1.12.0/src/tables.rs
+
+/root/DeSNARK_R1CS/target/release/deps/libunicode_segmentation-22a0171aa7447989.rlib: /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/unicode-segmentation-1.12.0/src/lib.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/unicode-segmentation-1.12.0/src/grapheme.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/unicode-segmentation-1.12.0/src/sentence.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/unicode-segmentation-1.12.0/src/word.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/unicode-segmentation-1.12.0/src/tables.rs
+
+/root/DeSNARK_R1CS/target/release/deps/unicode_segmentation-22a0171aa7447989.d: /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/unicode-segmentation-1.12.0/src/lib.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/unicode-segmentation-1.12.0/src/grapheme.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/unicode-segmentation-1.12.0/src/sentence.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/unicode-segmentation-1.12.0/src/word.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/unicode-segmentation-1.12.0/src/tables.rs
+
+/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/unicode-segmentation-1.12.0/src/lib.rs:
+/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/unicode-segmentation-1.12.0/src/grapheme.rs:
+/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/unicode-segmentation-1.12.0/src/sentence.rs:
+/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/unicode-segmentation-1.12.0/src/word.rs:
+/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/unicode-segmentation-1.12.0/src/tables.rs:

@@ -1,0 +1,42 @@
+[package]
+name = "benches"
+version = "0.3.0"
+edition = "2018"
+
+[dependencies]
+merlin = "3.0.0"
+rayon = { version = "1", optional = true }
+ark-ff = { version = "0.4", features = [ "asm" ], optional = true}
+
+[dev-dependencies]
+ark-ec = { version = "0.4", default-features = false }
+ark-poly = { version = "0.4", default-features = false }
+ark-std = { version = "0.4", default-features = false }
+ark-crypto-primitives = { version = "0.4", features = ["r1cs", "prf" ] }
+ark-bls12-381 = { version = "0.4.0-alpha.2", features = [ "curve", "asm" ] }
+ark-ed-on-bls12-381 = "0.4.0-alpha.2"
+criterion = "0.5.0"
+ark-relations = "0.4"
+ark-r1cs-std = "0.4"
+
+digest = "0.10.7"
+blake2 = "0.10.6"
+
+my_kzg = {path = "../kzg"}
+my_ipa = {path = "../ipa"}
+
+[[bench]]
+name = "biv_batch_kzg"
+path = "benches/biv_batch_kzg.rs"
+harness = false
+
+[[bench]]
+name = "my_ipa"
+path = "benches/ipa.rs"
+harness = false
+
+[features]
+default = [ "parallel", "asm" ]
+parallel = [ "rayon", "ark-ec/parallel", "ark-ff/parallel", "ark-poly/parallel", "ark-std/parallel", "ark-crypto-primitives/parallel"]
+print-trace = [ "ark-std/print-trace" ]
+asm = ["ark-ff"]

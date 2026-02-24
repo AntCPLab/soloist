@@ -1,0 +1,14 @@
+/root/soloist/target/debug/deps/libanstream-3abeb2e605d33acc.rmeta: /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/anstream-0.6.18/src/lib.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/anstream-0.6.18/src/adapter/mod.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/anstream-0.6.18/src/adapter/strip.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/anstream-0.6.18/src/adapter/wincon.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/anstream-0.6.18/src/stream.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/anstream-0.6.18/src/_macros.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/anstream-0.6.18/src/auto.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/anstream-0.6.18/src/buffer.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/anstream-0.6.18/src/fmt.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/anstream-0.6.18/src/strip.rs
+
+/root/soloist/target/debug/deps/anstream-3abeb2e605d33acc.d: /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/anstream-0.6.18/src/lib.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/anstream-0.6.18/src/adapter/mod.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/anstream-0.6.18/src/adapter/strip.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/anstream-0.6.18/src/adapter/wincon.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/anstream-0.6.18/src/stream.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/anstream-0.6.18/src/_macros.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/anstream-0.6.18/src/auto.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/anstream-0.6.18/src/buffer.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/anstream-0.6.18/src/fmt.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/anstream-0.6.18/src/strip.rs
+
+/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/anstream-0.6.18/src/lib.rs:
+/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/anstream-0.6.18/src/adapter/mod.rs:
+/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/anstream-0.6.18/src/adapter/strip.rs:
+/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/anstream-0.6.18/src/adapter/wincon.rs:
+/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/anstream-0.6.18/src/stream.rs:
+/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/anstream-0.6.18/src/_macros.rs:
+/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/anstream-0.6.18/src/auto.rs:
+/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/anstream-0.6.18/src/buffer.rs:
+/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/anstream-0.6.18/src/fmt.rs:
+/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/anstream-0.6.18/src/strip.rs:

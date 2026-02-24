@@ -1,0 +1,13 @@
+/root/soloist/target/debug/deps/libquote-3e41985b2992aa60.rmeta: /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/quote-1.0.40/src/lib.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/quote-1.0.40/src/ext.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/quote-1.0.40/src/format.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/quote-1.0.40/src/ident_fragment.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/quote-1.0.40/src/to_tokens.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/quote-1.0.40/src/runtime.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/quote-1.0.40/src/spanned.rs
+
+/root/soloist/target/debug/deps/libquote-3e41985b2992aa60.rlib: /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/quote-1.0.40/src/lib.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/quote-1.0.40/src/ext.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/quote-1.0.40/src/format.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/quote-1.0.40/src/ident_fragment.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/quote-1.0.40/src/to_tokens.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/quote-1.0.40/src/runtime.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/quote-1.0.40/src/spanned.rs
+
+/root/soloist/target/debug/deps/quote-3e41985b2992aa60.d: /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/quote-1.0.40/src/lib.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/quote-1.0.40/src/ext.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/quote-1.0.40/src/format.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/quote-1.0.40/src/ident_fragment.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/quote-1.0.40/src/to_tokens.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/quote-1.0.40/src/runtime.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/quote-1.0.40/src/spanned.rs
+
+/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/quote-1.0.40/src/lib.rs:
+/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/quote-1.0.40/src/ext.rs:
+/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/quote-1.0.40/src/format.rs:
+/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/quote-1.0.40/src/ident_fragment.rs:
+/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/quote-1.0.40/src/to_tokens.rs:
+/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/quote-1.0.40/src/runtime.rs:
+/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/quote-1.0.40/src/spanned.rs:

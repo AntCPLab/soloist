@@ -1,0 +1,13 @@
+/root/soloist/target/debug/deps/libtracing-f7e0cb46f9a3c1f3.rmeta: /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/tracing-0.1.41/src/lib.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/tracing-0.1.41/src/macros.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/tracing-0.1.41/src/dispatcher.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/tracing-0.1.41/src/field.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/tracing-0.1.41/src/instrument.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/tracing-0.1.41/src/level_filters.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/tracing-0.1.41/src/span.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/tracing-0.1.41/src/stdlib.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/tracing-0.1.41/src/subscriber.rs
+
+/root/soloist/target/debug/deps/tracing-f7e0cb46f9a3c1f3.d: /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/tracing-0.1.41/src/lib.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/tracing-0.1.41/src/macros.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/tracing-0.1.41/src/dispatcher.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/tracing-0.1.41/src/field.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/tracing-0.1.41/src/instrument.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/tracing-0.1.41/src/level_filters.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/tracing-0.1.41/src/span.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/tracing-0.1.41/src/stdlib.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/tracing-0.1.41/src/subscriber.rs
+
+/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/tracing-0.1.41/src/lib.rs:
+/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/tracing-0.1.41/src/macros.rs:
+/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/tracing-0.1.41/src/dispatcher.rs:
+/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/tracing-0.1.41/src/field.rs:
+/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/tracing-0.1.41/src/instrument.rs:
+/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/tracing-0.1.41/src/level_filters.rs:
+/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/tracing-0.1.41/src/span.rs:
+/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/tracing-0.1.41/src/stdlib.rs:
+/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/tracing-0.1.41/src/subscriber.rs:

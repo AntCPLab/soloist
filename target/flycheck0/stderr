@@ -1,0 +1,959 @@
+warning: virtual workspace defaulting to `resolver = "1"` despite one or more workspace members being on edition 2021 which implies `resolver = "2"`
+note: to keep the current resolver, specify `workspace.resolver = "1"` in the workspace root's manifest
+note: to use the edition 2021 resolver, specify `workspace.resolver = "2"` in the workspace root's manifest
+note: for more details see https://doc.rust-lang.org/cargo/reference/resolver.html#resolver-versions
+   0.193779719s  INFO prepare_target{force=false package_id=benches v0.3.0 (/root/soloist/benches) target="biv_batch_kzg"}: cargo::core::compiler::fingerprint: dependency on `build_script_build` is newer than we are 1771931935.915158736s > 1771931932.662086982s "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/num-traits-0.2.19"
+   0.193840771s  INFO prepare_target{force=false package_id=benches v0.3.0 (/root/soloist/benches) target="biv_batch_kzg"}: cargo::core::compiler::fingerprint: dependency on `build_script_build` is newer than we are 1771931936.052161757s > 1771931931.341057844s "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/libc-0.2.171"
+   0.193883295s  INFO prepare_target{force=false package_id=benches v0.3.0 (/root/soloist/benches) target="biv_batch_kzg"}: cargo::core::compiler::fingerprint: dependency on `build_script_build` is newer than we are 1771931935.970159949s > 1771931930.605041610s "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/zerocopy-0.8.24"
+   0.194006201s  INFO prepare_target{force=false package_id=benches v0.3.0 (/root/soloist/benches) target="biv_batch_kzg"}: cargo::core::compiler::fingerprint: dependency on `build_script_build` is newer than we are 1771931936.007160765s > 1771931932.569084931s "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/crossbeam-utils-0.8.21"
+   0.194157614s  INFO prepare_target{force=false package_id=benches v0.3.0 (/root/soloist/benches) target="biv_batch_kzg"}: cargo::core::compiler::fingerprint: dependency on `build_script_build` is newer than we are 1771931935.989160368s > 1771931930.464038500s "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/typenum-1.18.0"
+   0.194171876s  INFO prepare_target{force=false package_id=benches v0.3.0 (/root/soloist/benches) target="biv_batch_kzg"}: cargo::core::compiler::fingerprint: dependency on `build_script_build` is newer than we are 1771931935.979160147s > 1771931930.552040441s "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/generic-array-0.14.7"
+   0.194271278s  INFO prepare_target{force=false package_id=benches v0.3.0 (/root/soloist/benches) target="biv_batch_kzg"}: cargo::core::compiler::fingerprint: dependency on `either` is newer than we are 1771931932.353080167s > 1771931931.378058660s "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/itertools-0.10.5"
+   0.194380664s  INFO prepare_target{force=false package_id=benches v0.3.0 (/root/soloist/benches) target="biv_batch_kzg"}: cargo::core::compiler::fingerprint: dependency on `zeroize_derive` is newer than we are 1771931961.879731440s > 1771931931.105052639s "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/zeroize-1.8.1"
+   0.194396685s  INFO prepare_target{force=false package_id=benches v0.3.0 (/root/soloist/benches) target="biv_batch_kzg"}: cargo::core::compiler::fingerprint: dependency on `ark_ff_asm` is newer than we are 1771931962.217738896s > 1771931931.653064726s "/root/.cargo/git/checkouts/algebra-df5fb899d5c300cb/2d3274c/ff"
+   0.194487553s  INFO prepare_target{force=false package_id=benches v0.3.0 (/root/soloist/benches) target="biv_batch_kzg"}: cargo::core::compiler::fingerprint: dependency on `once_cell` is newer than we are 1771931932.290078777s > 1771931930.456038323s "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/ahash-0.8.11"
+   0.194606542s  INFO prepare_target{force=false package_id=benches v0.3.0 (/root/soloist/benches) target="biv_batch_kzg"}: cargo::core::compiler::fingerprint: dependency on `tracing_attributes` is newer than we are 1771931962.495745028s > 1771931932.923092739s "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/tracing-0.1.41"
+   0.194642830s  INFO prepare_target{force=false package_id=benches v0.3.0 (/root/soloist/benches) target="biv_batch_kzg"}: cargo::core::compiler::fingerprint: dependency on `tracing_subscriber` is newer than we are 1771931932.660086938s > 1771931931.653064726s "/root/.cargo/git/checkouts/snark-12d08c1181578ec4/df4439c/relations"
+   0.194877499s  INFO prepare_target{force=false package_id=benches v0.3.0 (/root/soloist/benches) target="biv_batch_kzg"}: cargo::core::compiler::fingerprint: dependency on `build_script_build` is newer than we are 1771931936.058161890s > 1771931931.465060579s "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/serde-1.0.219"
+   0.195037398s  INFO prepare_target{force=false package_id=benches v0.3.0 (/root/soloist/benches) target="biv_batch_kzg"}: cargo::core::compiler::fingerprint: dependency on `anstyle` is newer than we are 1771931932.353080167s > 1771931930.456038323s "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/anstream-0.6.18"
+   0.195099847s  INFO prepare_target{force=false package_id=benches v0.3.0 (/root/soloist/benches) target="biv_batch_kzg"}: cargo::core::compiler::fingerprint: dependency on `anstyle` is newer than we are 1771931932.353080167s > 1771931930.632042205s "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/clap_builder-4.5.35"
+   0.195280190s  INFO prepare_target{force=false package_id=benches v0.3.0 (/root/soloist/benches) target="biv_batch_kzg"}: cargo::core::compiler::fingerprint: dependency on `memchr` is newer than we are 1771931932.569084931s > 1771931931.361058285s "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/aho-corasick-1.1.3"
+   0.195416857s  INFO prepare_target{force=false package_id=benches v0.3.0 (/root/soloist/benches) target="biv_batch_kzg"}: cargo::core::compiler::fingerprint: dependency on `ryu` is newer than we are 1771931932.289078755s > 1771931931.549062432s "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/serde_json-1.0.140"
+   0.195520012s  INFO prepare_target{force=false package_id=benches v0.3.0 (/root/soloist/benches) target="biv_batch_kzg"}: cargo::core::compiler::fingerprint: dependency on `byteorder` is newer than we are 1771931932.379080740s > 1771931931.376058616s "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/merlin-3.0.0"
+   0.195617810s  INFO prepare_target{force=false package_id=benches v0.3.0 (/root/soloist/benches) target="biv_batch_kzg"}: cargo::core::compiler::fingerprint: dependency on `log` is newer than we are 1771931931.276056410s > 1771931930.425037640s "/root/soloist/de_network"
+   0.195633076s  INFO prepare_target{force=false package_id=benches v0.3.0 (/root/soloist/benches) target="biv_batch_kzg"}: cargo::core::compiler::fingerprint: dependency on `either` is newer than we are 1771931932.353080167s > 1771931930.600041500s "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/itertools-0.13.0"
+   0.195764035s  INFO prepare_target{force=false package_id=benches v0.3.0 (/root/soloist/benches) target="biv_batch_kzg"}: cargo::core::compiler::fingerprint: dependency on `unicode_width` is newer than we are 1771931932.392081027s > 1771931931.449060226s "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/clap-2.34.0"
+   0.195943718s  INFO prepare_target{force=false package_id=benches v0.3.0 (/root/soloist/benches) target="biv_batch_kzg"}: cargo::core::compiler::fingerprint: dependency on `structopt_derive` is newer than we are 1771931962.439743792s > 1771931931.463060535s "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/structopt-0.3.26"
+   0.196104535s  INFO prepare_target{force=false package_id=benches v0.3.0 (/root/soloist/benches) target="biv_batch_kzg"}: cargo::core::compiler::fingerprint: fingerprint error for benches v0.3.0 (/root/soloist/benches)/Check { test: true }/TargetInner { kind: "bench", name: "biv_batch_kzg", tested: false, harness: false, ..: with_path("/root/soloist/benches/benches/biv_batch_kzg.rs", Edition2018) }
+   0.196119208s  INFO prepare_target{force=false package_id=benches v0.3.0 (/root/soloist/benches) target="biv_batch_kzg"}: cargo::core::compiler::fingerprint:     err: failed to read `/root/soloist/target/debug/.fingerprint/benches-8f36b7aafad3085b/test-bench-biv_batch_kzg`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: cargo_util::paths::read_bytes
+   1: cargo_util::paths::read
+   2: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   3: cargo::core::compiler::fingerprint::prepare_target
+   4: cargo::core::compiler::compile
+   5: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   6: cargo::ops::cargo_compile::compile_ws
+   7: cargo::ops::cargo_compile::compile_with_exec
+   8: cargo::ops::cargo_compile::compile
+   9: cargo::commands::check::exec
+  10: <cargo::cli::Exec>::exec
+  11: cargo::main
+  12: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  13: std::rt::lang_start::<()>::{closure#0}
+  14: core::ops::function::impls::<impl core::ops::function::FnOnce<A> for &F>::call_once
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/core/src/ops/function.rs:284:13
+  15: std::panicking::try::do_call
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panicking.rs:589:40
+  16: std::panicking::try
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panicking.rs:552:19
+  17: std::panic::catch_unwind
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panic.rs:359:14
+  18: std::rt::lang_start_internal::{{closure}}
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/rt.rs:168:24
+  19: std::panicking::try::do_call
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panicking.rs:589:40
+  20: std::panicking::try
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panicking.rs:552:19
+  21: std::panic::catch_unwind
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panic.rs:359:14
+  22: std::rt::lang_start_internal
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/rt.rs:164:5
+  23: main
+  24: __libc_start_main
+  25: <unknown>
+   0.205214827s  INFO prepare_target{force=false package_id=ark-bls12-381 v0.4.0-alpha.2 (https://github.com/zhaowenlan1779/curves?branch=optimize#a103f5db) target="ark_bls12_381"}: cargo::core::compiler::fingerprint: fingerprint dirty for ark-bls12-381 v0.4.0-alpha.2 (https://github.com/zhaowenlan1779/curves?branch=optimize#a103f5db)/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("ark_bls12_381", ["lib"], "/root/.cargo/git/checkouts/curves-7e105db59b5a4879/a103f5d/bls12_381/src/lib.rs", Edition2021) }
+   0.205238144s  INFO prepare_target{force=false package_id=ark-bls12-381 v0.4.0-alpha.2 (https://github.com/zhaowenlan1779/curves?branch=optimize#a103f5db) target="ark_bls12_381"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "ark_ec" })
+   0.205570830s  INFO prepare_target{force=false package_id=ark-ec v0.4.2 (https://github.com/zhaowenlan1779/algebra?branch=optimize#2d3274c9) target="ark_ec"}: cargo::core::compiler::fingerprint: fingerprint dirty for ark-ec v0.4.2 (https://github.com/zhaowenlan1779/algebra?branch=optimize#2d3274c9)/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("ark_ec", ["lib"], "/root/.cargo/git/checkouts/algebra-df5fb899d5c300cb/2d3274c/ec/src/lib.rs", Edition2021) }
+   0.205585357s  INFO prepare_target{force=false package_id=ark-ec v0.4.2 (https://github.com/zhaowenlan1779/algebra?branch=optimize#2d3274c9) target="ark_ec"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "num_traits" })
+   0.205941247s  INFO prepare_target{force=false package_id=ark-ff v0.4.2 (https://github.com/zhaowenlan1779/algebra?branch=optimize#2d3274c9) target="ark_ff"}: cargo::core::compiler::fingerprint: fingerprint dirty for ark-ff v0.4.2 (https://github.com/zhaowenlan1779/algebra?branch=optimize#2d3274c9)/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("ark_ff", ["lib"], "/root/.cargo/git/checkouts/algebra-df5fb899d5c300cb/2d3274c/ff/src/lib.rs", Edition2021) }
+   0.205955653s  INFO prepare_target{force=false package_id=ark-ff v0.4.2 (https://github.com/zhaowenlan1779/algebra?branch=optimize#2d3274c9) target="ark_ff"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDependency { name: "ark_ff_asm", dep_mtime: FileTime { seconds: 1771931962, nanos: 217738896 }, max_mtime: FileTime { seconds: 1771931931, nanos: 653064726 } })
+   0.206895411s  INFO prepare_target{force=false package_id=ark-serialize v0.4.2 (https://github.com/zhaowenlan1779/algebra?branch=optimize#2d3274c9) target="ark_serialize"}: cargo::core::compiler::fingerprint: fingerprint dirty for ark-serialize v0.4.2 (https://github.com/zhaowenlan1779/algebra?branch=optimize#2d3274c9)/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("ark_serialize", ["lib"], "/root/.cargo/git/checkouts/algebra-df5fb899d5c300cb/2d3274c/serialize/src/lib.rs", Edition2021) }
+   0.206912097s  INFO prepare_target{force=false package_id=ark-serialize v0.4.2 (https://github.com/zhaowenlan1779/algebra?branch=optimize#2d3274c9) target="ark_serialize"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "num_bigint" })
+   0.207196598s  INFO prepare_target{force=false package_id=ark-std v0.4.0 target="ark_std"}: cargo::core::compiler::fingerprint: fingerprint dirty for ark-std v0.4.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("ark_std", ["lib"], "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/ark-std-0.4.0/src/lib.rs", Edition2021) }
+   0.207210849s  INFO prepare_target{force=false package_id=ark-std v0.4.0 target="ark_std"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "num_traits" })
+   0.207421165s  INFO prepare_target{force=false package_id=num-traits v0.2.19 target="num_traits"}: cargo::core::compiler::fingerprint: fingerprint dirty for num-traits v0.2.19/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("num_traits", ["lib"], "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/num-traits-0.2.19/src/lib.rs", Edition2021) }
+   0.207434052s  INFO prepare_target{force=false package_id=num-traits v0.2.19 target="num_traits"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDependency { name: "build_script_build", dep_mtime: FileTime { seconds: 1771931935, nanos: 915158736 }, max_mtime: FileTime { seconds: 1771931932, nanos: 662086982 } })
+   0.207548714s  INFO prepare_target{force=false package_id=rand v0.8.5 target="rand"}: cargo::core::compiler::fingerprint: fingerprint dirty for rand v0.8.5/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("rand", ["lib"], "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/rand-0.8.5/src/lib.rs", Edition2018) }
+   0.207559460s  INFO prepare_target{force=false package_id=rand v0.8.5 target="rand"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "rand_chacha" })
+   0.207745402s  INFO prepare_target{force=false package_id=libc v0.2.171 target="libc"}: cargo::core::compiler::fingerprint: fingerprint dirty for libc v0.2.171/Check { test: false }/TargetInner { ..: lib_target("libc", ["lib"], "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/libc-0.2.171/src/lib.rs", Edition2021) }
+   0.207757146s  INFO prepare_target{force=false package_id=libc v0.2.171 target="libc"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDependency { name: "build_script_build", dep_mtime: FileTime { seconds: 1771931936, nanos: 52161757 }, max_mtime: FileTime { seconds: 1771931931, nanos: 341057844 } })
+   0.207982164s  INFO prepare_target{force=false package_id=rand_chacha v0.3.1 target="rand_chacha"}: cargo::core::compiler::fingerprint: fingerprint dirty for rand_chacha v0.3.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("rand_chacha", ["lib"], "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/rand_chacha-0.3.1/src/lib.rs", Edition2018) }
+   0.207994526s  INFO prepare_target{force=false package_id=rand_chacha v0.3.1 target="rand_chacha"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "ppv_lite86" })
+   0.208156975s  INFO prepare_target{force=false package_id=ppv-lite86 v0.2.21 target="ppv_lite86"}: cargo::core::compiler::fingerprint: fingerprint dirty for ppv-lite86 v0.2.21/Check { test: false }/TargetInner { ..: lib_target("ppv_lite86", ["lib"], "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/ppv-lite86-0.2.21/src/lib.rs", Edition2021) }
+   0.208168760s  INFO prepare_target{force=false package_id=ppv-lite86 v0.2.21 target="ppv_lite86"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "zerocopy" })
+   0.208289889s  INFO prepare_target{force=false package_id=zerocopy v0.8.24 target="zerocopy"}: cargo::core::compiler::fingerprint: fingerprint dirty for zerocopy v0.8.24/Check { test: false }/TargetInner { ..: lib_target("zerocopy", ["lib"], "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/zerocopy-0.8.24/src/lib.rs", Edition2021) }
+   0.208301140s  INFO prepare_target{force=false package_id=zerocopy v0.8.24 target="zerocopy"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDependency { name: "build_script_build", dep_mtime: FileTime { seconds: 1771931935, nanos: 970159949 }, max_mtime: FileTime { seconds: 1771931930, nanos: 605041610 } })
+   0.208535692s  INFO prepare_target{force=false package_id=rand_core v0.6.4 target="rand_core"}: cargo::core::compiler::fingerprint: fingerprint dirty for rand_core v0.6.4/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("rand_core", ["lib"], "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/rand_core-0.6.4/src/lib.rs", Edition2018) }
+   0.208548477s  INFO prepare_target{force=false package_id=rand_core v0.6.4 target="rand_core"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "getrandom" })
+   0.208683423s  INFO prepare_target{force=false package_id=getrandom v0.2.15 target="getrandom"}: cargo::core::compiler::fingerprint: fingerprint dirty for getrandom v0.2.15/Check { test: false }/TargetInner { ..: lib_target("getrandom", ["lib"], "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/getrandom-0.2.15/src/lib.rs", Edition2018) }
+   0.208694846s  INFO prepare_target{force=false package_id=getrandom v0.2.15 target="getrandom"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "libc" })
+   0.208858789s  INFO prepare_target{force=false package_id=rayon v1.10.0 target="rayon"}: cargo::core::compiler::fingerprint: fingerprint dirty for rayon v1.10.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("rayon", ["lib"], "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/rayon-1.10.0/src/lib.rs", Edition2021) }
+   0.208869791s  INFO prepare_target{force=false package_id=rayon v1.10.0 target="rayon"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "rayon_core" })
+   0.209036436s  INFO prepare_target{force=false package_id=rayon-core v1.12.1 target="rayon_core"}: cargo::core::compiler::fingerprint: fingerprint dirty for rayon-core v1.12.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("rayon_core", ["lib"], "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/rayon-core-1.12.1/src/lib.rs", Edition2021) }
+   0.209047728s  INFO prepare_target{force=false package_id=rayon-core v1.12.1 target="rayon_core"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "crossbeam_utils" })
+   0.209192541s  INFO prepare_target{force=false package_id=crossbeam-deque v0.8.6 target="crossbeam_deque"}: cargo::core::compiler::fingerprint: fingerprint dirty for crossbeam-deque v0.8.6/Check { test: false }/TargetInner { ..: lib_target("crossbeam_deque", ["lib"], "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/crossbeam-deque-0.8.6/src/lib.rs", Edition2021) }
+   0.209203658s  INFO prepare_target{force=false package_id=crossbeam-deque v0.8.6 target="crossbeam_deque"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "crossbeam_epoch" })
+   0.209351975s  INFO prepare_target{force=false package_id=crossbeam-epoch v0.9.18 target="crossbeam_epoch"}: cargo::core::compiler::fingerprint: fingerprint dirty for crossbeam-epoch v0.9.18/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("crossbeam_epoch", ["lib"], "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/crossbeam-epoch-0.9.18/src/lib.rs", Edition2021) }
+   0.209363301s  INFO prepare_target{force=false package_id=crossbeam-epoch v0.9.18 target="crossbeam_epoch"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "crossbeam_utils" })
+   0.209504157s  INFO prepare_target{force=false package_id=crossbeam-utils v0.8.21 target="crossbeam_utils"}: cargo::core::compiler::fingerprint: fingerprint dirty for crossbeam-utils v0.8.21/Check { test: false }/TargetInner { ..: lib_target("crossbeam_utils", ["lib"], "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/crossbeam-utils-0.8.21/src/lib.rs", Edition2021) }
+   0.209516669s  INFO prepare_target{force=false package_id=crossbeam-utils v0.8.21 target="crossbeam_utils"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDependency { name: "build_script_build", dep_mtime: FileTime { seconds: 1771931936, nanos: 7160765 }, max_mtime: FileTime { seconds: 1771931932, nanos: 569084931 } })
+   0.209830835s  INFO prepare_target{force=false package_id=digest v0.10.7 target="digest"}: cargo::core::compiler::fingerprint: fingerprint dirty for digest v0.10.7/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("digest", ["lib"], "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/digest-0.10.7/src/lib.rs", Edition2018) }
+   0.209843233s  INFO prepare_target{force=false package_id=digest v0.10.7 target="digest"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "crypto_common" })
+   0.210022688s  INFO prepare_target{force=false package_id=block-buffer v0.10.4 target="block_buffer"}: cargo::core::compiler::fingerprint: fingerprint dirty for block-buffer v0.10.4/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("block_buffer", ["lib"], "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/block-buffer-0.10.4/src/lib.rs", Edition2018) }
+   0.210035257s  INFO prepare_target{force=false package_id=block-buffer v0.10.4 target="block_buffer"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "generic_array" })
+   0.210157779s  INFO prepare_target{force=false package_id=generic-array v0.14.7 target="generic_array"}: cargo::core::compiler::fingerprint: fingerprint dirty for generic-array v0.14.7/Check { test: false }/TargetInner { ..: lib_target("generic_array", ["lib"], "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/generic-array-0.14.7/src/lib.rs", Edition2015) }
+   0.210168678s  INFO prepare_target{force=false package_id=generic-array v0.14.7 target="generic_array"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDependency { name: "build_script_build", dep_mtime: FileTime { seconds: 1771931935, nanos: 979160147 }, max_mtime: FileTime { seconds: 1771931930, nanos: 552040441 } })
+   0.210423056s  INFO prepare_target{force=false package_id=typenum v1.18.0 target="typenum"}: cargo::core::compiler::fingerprint: fingerprint dirty for typenum v1.18.0/Check { test: false }/TargetInner { ..: lib_target("typenum", ["lib"], "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/typenum-1.18.0/src/lib.rs", Edition2018) }
+   0.210435540s  INFO prepare_target{force=false package_id=typenum v1.18.0 target="typenum"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDependency { name: "build_script_build", dep_mtime: FileTime { seconds: 1771931935, nanos: 989160368 }, max_mtime: FileTime { seconds: 1771931930, nanos: 464038500 } })
+   0.210638444s  INFO prepare_target{force=false package_id=crypto-common v0.1.6 target="crypto_common"}: cargo::core::compiler::fingerprint: fingerprint dirty for crypto-common v0.1.6/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("crypto_common", ["lib"], "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/crypto-common-0.1.6/src/lib.rs", Edition2018) }
+   0.210650701s  INFO prepare_target{force=false package_id=crypto-common v0.1.6 target="crypto_common"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "generic_array" })
+   0.210835210s  INFO prepare_target{force=false package_id=num-bigint v0.4.6 target="num_bigint"}: cargo::core::compiler::fingerprint: fingerprint dirty for num-bigint v0.4.6/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("num_bigint", ["lib"], "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/num-bigint-0.4.6/src/lib.rs", Edition2021) }
+   0.210847175s  INFO prepare_target{force=false package_id=num-bigint v0.4.6 target="num_bigint"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "num_traits" })
+   0.210991945s  INFO prepare_target{force=false package_id=num-integer v0.1.46 target="num_integer"}: cargo::core::compiler::fingerprint: fingerprint dirty for num-integer v0.1.46/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("num_integer", ["lib"], "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/num-integer-0.1.46/src/lib.rs", Edition2018) }
+   0.211004425s  INFO prepare_target{force=false package_id=num-integer v0.1.46 target="num_integer"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "num_traits" })
+   0.211155249s  INFO prepare_target{force=false package_id=itertools v0.10.5 target="itertools"}: cargo::core::compiler::fingerprint: fingerprint dirty for itertools v0.10.5/Check { test: false }/TargetInner { name_inferred: true, tested: false, benched: false, ..: lib_target("itertools", ["lib"], "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/itertools-0.10.5/src/lib.rs", Edition2018) }
+   0.211166849s  INFO prepare_target{force=false package_id=itertools v0.10.5 target="itertools"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDependency { name: "either", dep_mtime: FileTime { seconds: 1771931932, nanos: 353080167 }, max_mtime: FileTime { seconds: 1771931931, nanos: 378058660 } })
+   0.211440856s  INFO prepare_target{force=false package_id=zeroize v1.8.1 target="zeroize"}: cargo::core::compiler::fingerprint: fingerprint dirty for zeroize v1.8.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("zeroize", ["lib"], "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/zeroize-1.8.1/src/lib.rs", Edition2021) }
+   0.211453989s  INFO prepare_target{force=false package_id=zeroize v1.8.1 target="zeroize"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDependency { name: "zeroize_derive", dep_mtime: FileTime { seconds: 1771931961, nanos: 879731440 }, max_mtime: FileTime { seconds: 1771931931, nanos: 105052639 } })
+   0.211640478s  INFO prepare_target{force=false package_id=ark-poly v0.4.2 (https://github.com/zhaowenlan1779/algebra?branch=optimize#2d3274c9) target="ark_poly"}: cargo::core::compiler::fingerprint: fingerprint dirty for ark-poly v0.4.2 (https://github.com/zhaowenlan1779/algebra?branch=optimize#2d3274c9)/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("ark_poly", ["lib"], "/root/.cargo/git/checkouts/algebra-df5fb899d5c300cb/2d3274c/poly/src/lib.rs", Edition2021) }
+   0.211652803s  INFO prepare_target{force=false package_id=ark-poly v0.4.2 (https://github.com/zhaowenlan1779/algebra?branch=optimize#2d3274c9) target="ark_poly"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "hashbrown" })
+   0.211954490s  INFO prepare_target{force=false package_id=hashbrown v0.13.2 target="hashbrown"}: cargo::core::compiler::fingerprint: fingerprint dirty for hashbrown v0.13.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("hashbrown", ["lib"], "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/hashbrown-0.13.2/src/lib.rs", Edition2021) }
+   0.211968359s  INFO prepare_target{force=false package_id=hashbrown v0.13.2 target="hashbrown"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "ahash" })
+   0.212104888s  INFO prepare_target{force=false package_id=ahash v0.8.11 target="ahash"}: cargo::core::compiler::fingerprint: fingerprint dirty for ahash v0.8.11/Check { test: false }/TargetInner { ..: lib_target("ahash", ["lib"], "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/ahash-0.8.11/src/lib.rs", Edition2018) }
+   0.212117007s  INFO prepare_target{force=false package_id=ahash v0.8.11 target="ahash"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDependency { name: "once_cell", dep_mtime: FileTime { seconds: 1771931932, nanos: 290078777 }, max_mtime: FileTime { seconds: 1771931930, nanos: 456038323 } })
+   0.212463428s  INFO prepare_target{force=false package_id=ark-crypto-primitives v0.4.0 target="ark_crypto_primitives"}: cargo::core::compiler::fingerprint: fingerprint dirty for ark-crypto-primitives v0.4.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("ark_crypto_primitives", ["lib"], "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/ark-crypto-primitives-0.4.0/src/lib.rs", Edition2021) }
+   0.212477744s  INFO prepare_target{force=false package_id=ark-crypto-primitives v0.4.0 target="ark_crypto_primitives"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "ark_relations" })
+   0.212942459s  INFO prepare_target{force=false package_id=ark-r1cs-std v0.4.0 target="ark_r1cs_std"}: cargo::core::compiler::fingerprint: fingerprint dirty for ark-r1cs-std v0.4.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("ark_r1cs_std", ["lib"], "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/ark-r1cs-std-0.4.0/src/lib.rs", Edition2018) }
+   0.212957404s  INFO prepare_target{force=false package_id=ark-r1cs-std v0.4.0 target="ark_r1cs_std"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "ark_relations" })
+   0.213316046s  INFO prepare_target{force=false package_id=ark-relations v0.4.0 (https://github.com/zhaowenlan1779/snark?branch=optimize#df4439c8) target="ark_relations"}: cargo::core::compiler::fingerprint: fingerprint dirty for ark-relations v0.4.0 (https://github.com/zhaowenlan1779/snark?branch=optimize#df4439c8)/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("ark_relations", ["lib"], "/root/.cargo/git/checkouts/snark-12d08c1181578ec4/df4439c/relations/src/lib.rs", Edition2021) }
+   0.213330014s  INFO prepare_target{force=false package_id=ark-relations v0.4.0 (https://github.com/zhaowenlan1779/snark?branch=optimize#df4439c8) target="ark_relations"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDependency { name: "tracing_subscriber", dep_mtime: FileTime { seconds: 1771931932, nanos: 660086938 }, max_mtime: FileTime { seconds: 1771931931, nanos: 653064726 } })
+   0.213634270s  INFO prepare_target{force=false package_id=tracing v0.1.41 target="tracing"}: cargo::core::compiler::fingerprint: fingerprint dirty for tracing v0.1.41/Check { test: false }/TargetInner { ..: lib_target("tracing", ["lib"], "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/tracing-0.1.41/src/lib.rs", Edition2018) }
+   0.213647783s  INFO prepare_target{force=false package_id=tracing v0.1.41 target="tracing"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDependency { name: "tracing_attributes", dep_mtime: FileTime { seconds: 1771931962, nanos: 495745028 }, max_mtime: FileTime { seconds: 1771931932, nanos: 923092739 } })
+   0.213917425s  INFO prepare_target{force=false package_id=ark-snark v0.4.0 target="ark_snark"}: cargo::core::compiler::fingerprint: fingerprint dirty for ark-snark v0.4.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("ark_snark", ["lib"], "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/ark-snark-0.4.0/src/lib.rs", Edition2021) }
+   0.213931191s  INFO prepare_target{force=false package_id=ark-snark v0.4.0 target="ark_snark"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "ark_relations" })
+   0.214210132s  INFO prepare_target{force=false package_id=blake2 v0.10.6 target="blake2"}: cargo::core::compiler::fingerprint: fingerprint dirty for blake2 v0.10.6/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("blake2", ["lib"], "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/blake2-0.10.6/src/lib.rs", Edition2018) }
+   0.214222946s  INFO prepare_target{force=false package_id=blake2 v0.10.6 target="blake2"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "digest" })
+   0.214364479s  INFO prepare_target{force=false package_id=sha2 v0.10.8 target="sha2"}: cargo::core::compiler::fingerprint: fingerprint dirty for sha2 v0.10.8/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("sha2", ["lib"], "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/sha2-0.10.8/src/lib.rs", Edition2018) }
+   0.214378565s  INFO prepare_target{force=false package_id=sha2 v0.10.8 target="sha2"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "digest" })
+   0.214580640s  INFO prepare_target{force=false package_id=ark-ed-on-bls12-381 v0.4.0-alpha.2 target="ark_ed_on_bls12_381"}: cargo::core::compiler::fingerprint: fingerprint dirty for ark-ed-on-bls12-381 v0.4.0-alpha.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("ark_ed_on_bls12_381", ["lib"], "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/ark-ed-on-bls12-381-0.4.0-alpha.2/src/lib.rs", Edition2021) }
+   0.214595752s  INFO prepare_target{force=false package_id=ark-ed-on-bls12-381 v0.4.0-alpha.2 target="ark_ed_on_bls12_381"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "ark_ec" })
+   0.214909112s  INFO prepare_target{force=false package_id=ark-poly v0.4.2 target="ark_poly"}: cargo::core::compiler::fingerprint: fingerprint dirty for ark-poly v0.4.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("ark_poly", ["lib"], "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/ark-poly-0.4.2/src/lib.rs", Edition2021) }
+   0.214923063s  INFO prepare_target{force=false package_id=ark-poly v0.4.2 target="ark_poly"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "hashbrown" })
+   0.215266510s  INFO prepare_target{force=false package_id=criterion v0.5.1 target="criterion"}: cargo::core::compiler::fingerprint: fingerprint dirty for criterion v0.5.1/Check { test: false }/TargetInner { name_inferred: true, benched: false, ..: lib_target("criterion", ["lib"], "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/criterion-0.5.1/src/lib.rs", Edition2018) }
+   0.215281475s  INFO prepare_target{force=false package_id=criterion v0.5.1 target="criterion"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "is_terminal" })
+   0.215804674s  INFO prepare_target{force=false package_id=ciborium v0.2.2 target="ciborium"}: cargo::core::compiler::fingerprint: fingerprint dirty for ciborium v0.2.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("ciborium", ["lib"], "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/ciborium-0.2.2/src/lib.rs", Edition2021) }
+   0.215819107s  INFO prepare_target{force=false package_id=ciborium v0.2.2 target="ciborium"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "serde" })
+   0.216050928s  INFO prepare_target{force=false package_id=serde v1.0.219 target="serde"}: cargo::core::compiler::fingerprint: fingerprint dirty for serde v1.0.219/Check { test: false }/TargetInner { ..: lib_target("serde", ["lib"], "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/serde-1.0.219/src/lib.rs", Edition2018) }
+   0.216062939s  INFO prepare_target{force=false package_id=serde v1.0.219 target="serde"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDependency { name: "build_script_build", dep_mtime: FileTime { seconds: 1771931936, nanos: 58161890 }, max_mtime: FileTime { seconds: 1771931931, nanos: 465060579 } })
+   0.216338410s  INFO prepare_target{force=false package_id=clap v4.5.35 target="clap"}: cargo::core::compiler::fingerprint: fingerprint dirty for clap v4.5.35/Check { test: false }/TargetInner { benched: false, ..: lib_target("clap", ["lib"], "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/clap-4.5.35/src/lib.rs", Edition2021) }
+   0.216351620s  INFO prepare_target{force=false package_id=clap v4.5.35 target="clap"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "clap_builder" })
+   0.216553510s  INFO prepare_target{force=false package_id=clap_builder v4.5.35 target="clap_builder"}: cargo::core::compiler::fingerprint: fingerprint dirty for clap_builder v4.5.35/Check { test: false }/TargetInner { benched: false, ..: lib_target("clap_builder", ["lib"], "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/clap_builder-4.5.35/src/lib.rs", Edition2021) }
+   0.216566552s  INFO prepare_target{force=false package_id=clap_builder v4.5.35 target="clap_builder"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDependency { name: "anstyle", dep_mtime: FileTime { seconds: 1771931932, nanos: 353080167 }, max_mtime: FileTime { seconds: 1771931930, nanos: 632042205 } })
+   0.216764230s  INFO prepare_target{force=false package_id=anstream v0.6.18 target="anstream"}: cargo::core::compiler::fingerprint: fingerprint dirty for anstream v0.6.18/Check { test: false }/TargetInner { ..: lib_target("anstream", ["lib"], "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/anstream-0.6.18/src/lib.rs", Edition2021) }
+   0.216776777s  INFO prepare_target{force=false package_id=anstream v0.6.18 target="anstream"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDependency { name: "anstyle", dep_mtime: FileTime { seconds: 1771931932, nanos: 353080167 }, max_mtime: FileTime { seconds: 1771931930, nanos: 456038323 } })
+   0.217164682s  INFO prepare_target{force=false package_id=criterion-plot v0.5.0 target="criterion_plot"}: cargo::core::compiler::fingerprint: fingerprint dirty for criterion-plot v0.5.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("criterion_plot", ["lib"], "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/criterion-plot-0.5.0/src/lib.rs", Edition2018) }
+   0.217177105s  INFO prepare_target{force=false package_id=criterion-plot v0.5.0 target="criterion_plot"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "itertools" })
+   0.217343223s  INFO prepare_target{force=false package_id=is-terminal v0.4.16 target="is_terminal"}: cargo::core::compiler::fingerprint: fingerprint dirty for is-terminal v0.4.16/Check { test: false }/TargetInner { ..: lib_target("is_terminal", ["lib"], "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/is-terminal-0.4.16/src/lib.rs", Edition2018) }
+   0.217354761s  INFO prepare_target{force=false package_id=is-terminal v0.4.16 target="is_terminal"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "libc" })
+   0.217516880s  INFO prepare_target{force=false package_id=plotters v0.3.7 target="plotters"}: cargo::core::compiler::fingerprint: fingerprint dirty for plotters v0.3.7/Check { test: false }/TargetInner { ..: lib_target("plotters", ["lib"], "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/plotters-0.3.7/src/lib.rs", Edition2018) }
+   0.217528676s  INFO prepare_target{force=false package_id=plotters v0.3.7 target="plotters"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "num_traits" })
+   0.217730537s  INFO prepare_target{force=false package_id=regex v1.11.1 target="regex"}: cargo::core::compiler::fingerprint: fingerprint dirty for regex v1.11.1/Check { test: false }/TargetInner { ..: lib_target("regex", ["lib"], "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/regex-1.11.1/src/lib.rs", Edition2021) }
+   0.217741891s  INFO prepare_target{force=false package_id=regex v1.11.1 target="regex"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "regex_automata" })
+   0.217923246s  INFO prepare_target{force=false package_id=aho-corasick v1.1.3 target="aho_corasick"}: cargo::core::compiler::fingerprint: fingerprint dirty for aho-corasick v1.1.3/Check { test: false }/TargetInner { ..: lib_target("aho_corasick", ["lib"], "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/aho-corasick-1.1.3/src/lib.rs", Edition2021) }
+   0.217934886s  INFO prepare_target{force=false package_id=aho-corasick v1.1.3 target="aho_corasick"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDependency { name: "memchr", dep_mtime: FileTime { seconds: 1771931932, nanos: 569084931 }, max_mtime: FileTime { seconds: 1771931931, nanos: 361058285 } })
+   0.218076848s  INFO prepare_target{force=false package_id=regex-automata v0.4.9 target="regex_automata"}: cargo::core::compiler::fingerprint: fingerprint dirty for regex-automata v0.4.9/Check { test: false }/TargetInner { benched: false, ..: lib_target("regex_automata", ["lib"], "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/regex-automata-0.4.9/src/lib.rs", Edition2021) }
+   0.218087705s  INFO prepare_target{force=false package_id=regex-automata v0.4.9 target="regex_automata"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "aho_corasick" })
+   0.218270557s  INFO prepare_target{force=false package_id=serde_json v1.0.140 target="serde_json"}: cargo::core::compiler::fingerprint: fingerprint dirty for serde_json v1.0.140/Check { test: false }/TargetInner { ..: lib_target("serde_json", ["lib"], "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/serde_json-1.0.140/src/lib.rs", Edition2021) }
+   0.218281385s  INFO prepare_target{force=false package_id=serde_json v1.0.140 target="serde_json"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDependency { name: "ryu", dep_mtime: FileTime { seconds: 1771931932, nanos: 289078755 }, max_mtime: FileTime { seconds: 1771931931, nanos: 549062432 } })
+   0.218630506s  INFO prepare_target{force=false package_id=tinytemplate v1.2.1 target="tinytemplate"}: cargo::core::compiler::fingerprint: fingerprint dirty for tinytemplate v1.2.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("tinytemplate", ["lib"], "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/tinytemplate-1.2.1/src/lib.rs", Edition2015) }
+   0.218643977s  INFO prepare_target{force=false package_id=tinytemplate v1.2.1 target="tinytemplate"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "serde" })
+   0.218842347s  INFO prepare_target{force=false package_id=merlin v3.0.0 target="merlin"}: cargo::core::compiler::fingerprint: fingerprint dirty for merlin v3.0.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("merlin", ["lib"], "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/merlin-3.0.0/src/lib.rs", Edition2018) }
+   0.218854345s  INFO prepare_target{force=false package_id=merlin v3.0.0 target="merlin"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDependency { name: "byteorder", dep_mtime: FileTime { seconds: 1771931932, nanos: 379080740 }, max_mtime: FileTime { seconds: 1771931931, nanos: 376058616 } })
+   0.219079684s  INFO prepare_target{force=false package_id=my_ipa v0.4.0 (/root/soloist/ipa) target="my_ipa"}: cargo::core::compiler::fingerprint: fingerprint error for my_ipa v0.4.0 (/root/soloist/ipa)/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("my_ipa", ["lib"], "/root/soloist/ipa/src/lib.rs", Edition2018) }
+   0.219091622s  INFO prepare_target{force=false package_id=my_ipa v0.4.0 (/root/soloist/ipa) target="my_ipa"}: cargo::core::compiler::fingerprint:     err: failed to read `/root/soloist/target/debug/.fingerprint/my_ipa-1448f6431be39b4d/lib-my_ipa`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: cargo_util::paths::read_bytes
+   1: cargo_util::paths::read
+   2: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   3: cargo::core::compiler::fingerprint::prepare_target
+   4: cargo::core::compiler::compile
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: core::ops::function::impls::<impl core::ops::function::FnOnce<A> for &F>::call_once
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/core/src/ops/function.rs:284:13
+  16: std::panicking::try::do_call
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panicking.rs:589:40
+  17: std::panicking::try
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panicking.rs:552:19
+  18: std::panic::catch_unwind
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panic.rs:359:14
+  19: std::rt::lang_start_internal::{{closure}}
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/rt.rs:168:24
+  20: std::panicking::try::do_call
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panicking.rs:589:40
+  21: std::panicking::try
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panicking.rs:552:19
+  22: std::panic::catch_unwind
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panic.rs:359:14
+  23: std::rt::lang_start_internal
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/rt.rs:164:5
+  24: main
+  25: __libc_start_main
+  26: <unknown>
+   0.219673277s  INFO prepare_target{force=false package_id=de_network v0.1.0 (/root/soloist/de_network) target="de_network"}: cargo::core::compiler::fingerprint: fingerprint dirty for de_network v0.1.0 (/root/soloist/de_network)/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("de_network", ["lib"], "/root/soloist/de_network/src/lib.rs", Edition2018) }
+   0.219688749s  INFO prepare_target{force=false package_id=de_network v0.1.0 (/root/soloist/de_network) target="de_network"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDependency { name: "log", dep_mtime: FileTime { seconds: 1771931931, nanos: 276056410 }, max_mtime: FileTime { seconds: 1771931930, nanos: 425037640 } })
+   0.220042062s  INFO prepare_target{force=false package_id=digest v0.9.0 target="digest"}: cargo::core::compiler::fingerprint: fingerprint dirty for digest v0.9.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("digest", ["lib"], "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/digest-0.9.0/src/lib.rs", Edition2018) }
+   0.220054863s  INFO prepare_target{force=false package_id=digest v0.9.0 target="digest"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "generic_array" })
+   0.220224094s  INFO prepare_target{force=false package_id=sha2 v0.9.9 target="sha2"}: cargo::core::compiler::fingerprint: fingerprint dirty for sha2 v0.9.9/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("sha2", ["lib"], "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/sha2-0.9.9/src/lib.rs", Edition2018) }
+   0.220235874s  INFO prepare_target{force=false package_id=sha2 v0.9.9 target="sha2"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "digest" })
+   0.220443824s  INFO prepare_target{force=false package_id=block-buffer v0.9.0 target="block_buffer"}: cargo::core::compiler::fingerprint: fingerprint dirty for block-buffer v0.9.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("block_buffer", ["lib"], "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/block-buffer-0.9.0/src/lib.rs", Edition2018) }
+   0.220455840s  INFO prepare_target{force=false package_id=block-buffer v0.9.0 target="block_buffer"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "generic_array" })
+   0.220621450s  INFO prepare_target{force=false package_id=itertools v0.13.0 target="itertools"}: cargo::core::compiler::fingerprint: fingerprint dirty for itertools v0.13.0/Check { test: false }/TargetInner { name_inferred: true, tested: false, benched: false, ..: lib_target("itertools", ["lib"], "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/itertools-0.13.0/src/lib.rs", Edition2018) }
+   0.220633537s  INFO prepare_target{force=false package_id=itertools v0.13.0 target="itertools"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDependency { name: "either", dep_mtime: FileTime { seconds: 1771931932, nanos: 353080167 }, max_mtime: FileTime { seconds: 1771931930, nanos: 600041500 } })
+   0.220756663s  INFO prepare_target{force=false package_id=my_kzg v0.4.0 (/root/soloist/kzg) target="my_kzg"}: cargo::core::compiler::fingerprint: fingerprint error for my_kzg v0.4.0 (/root/soloist/kzg)/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("my_kzg", ["lib"], "/root/soloist/kzg/src/lib.rs", Edition2018) }
+   0.220768079s  INFO prepare_target{force=false package_id=my_kzg v0.4.0 (/root/soloist/kzg) target="my_kzg"}: cargo::core::compiler::fingerprint:     err: failed to read `/root/soloist/target/debug/.fingerprint/my_kzg-756e07d239cf2ad5/lib-my_kzg`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: cargo_util::paths::read_bytes
+   1: cargo_util::paths::read
+   2: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   3: cargo::core::compiler::fingerprint::prepare_target
+   4: cargo::core::compiler::compile
+   5: cargo::core::compiler::compile
+   6: cargo::core::compiler::compile
+   7: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   8: cargo::ops::cargo_compile::compile_ws
+   9: cargo::ops::cargo_compile::compile_with_exec
+  10: cargo::ops::cargo_compile::compile
+  11: cargo::commands::check::exec
+  12: <cargo::cli::Exec>::exec
+  13: cargo::main
+  14: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  15: std::rt::lang_start::<()>::{closure#0}
+  16: core::ops::function::impls::<impl core::ops::function::FnOnce<A> for &F>::call_once
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/core/src/ops/function.rs:284:13
+  17: std::panicking::try::do_call
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panicking.rs:589:40
+  18: std::panicking::try
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panicking.rs:552:19
+  19: std::panic::catch_unwind
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panic.rs:359:14
+  20: std::rt::lang_start_internal::{{closure}}
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/rt.rs:168:24
+  21: std::panicking::try::do_call
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panicking.rs:589:40
+  22: std::panicking::try
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panicking.rs:552:19
+  23: std::panic::catch_unwind
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panic.rs:359:14
+  24: std::rt::lang_start_internal
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/rt.rs:164:5
+  25: main
+  26: __libc_start_main
+  27: <unknown>
+   0.221313963s  INFO prepare_target{force=false package_id=structopt v0.3.26 target="structopt"}: cargo::core::compiler::fingerprint: fingerprint dirty for structopt v0.3.26/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("structopt", ["lib"], "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/structopt-0.3.26/src/lib.rs", Edition2018) }
+   0.221329023s  INFO prepare_target{force=false package_id=structopt v0.3.26 target="structopt"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDependency { name: "structopt_derive", dep_mtime: FileTime { seconds: 1771931962, nanos: 439743792 }, max_mtime: FileTime { seconds: 1771931931, nanos: 463060535 } })
+   0.221571883s  INFO prepare_target{force=false package_id=clap v2.34.0 target="clap"}: cargo::core::compiler::fingerprint: fingerprint dirty for clap v2.34.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("clap", ["lib"], "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/clap-2.34.0/src/lib.rs", Edition2018) }
+   0.221585163s  INFO prepare_target{force=false package_id=clap v2.34.0 target="clap"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDependency { name: "unicode_width", dep_mtime: FileTime { seconds: 1771931932, nanos: 392081027 }, max_mtime: FileTime { seconds: 1771931931, nanos: 449060226 } })
+   0.221842103s  INFO prepare_target{force=false package_id=atty v0.2.14 target="atty"}: cargo::core::compiler::fingerprint: fingerprint dirty for atty v0.2.14/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("atty", ["lib"], "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/atty-0.2.14/src/lib.rs", Edition2015) }
+   0.221854250s  INFO prepare_target{force=false package_id=atty v0.2.14 target="atty"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "libc" })
+   0.222460008s  INFO prepare_target{force=false package_id=benches v0.3.0 (/root/soloist/benches) target="my_ipa"}: cargo::core::compiler::fingerprint: fingerprint error for benches v0.3.0 (/root/soloist/benches)/Check { test: true }/TargetInner { kind: "bench", name: "my_ipa", tested: false, harness: false, ..: with_path("/root/soloist/benches/benches/ipa.rs", Edition2018) }
+   0.222475426s  INFO prepare_target{force=false package_id=benches v0.3.0 (/root/soloist/benches) target="my_ipa"}: cargo::core::compiler::fingerprint:     err: failed to read `/root/soloist/target/debug/.fingerprint/benches-90842d65033de49e/test-bench-my_ipa`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: cargo_util::paths::read_bytes
+   1: cargo_util::paths::read
+   2: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   3: cargo::core::compiler::fingerprint::prepare_target
+   4: cargo::core::compiler::compile
+   5: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   6: cargo::ops::cargo_compile::compile_ws
+   7: cargo::ops::cargo_compile::compile_with_exec
+   8: cargo::ops::cargo_compile::compile
+   9: cargo::commands::check::exec
+  10: <cargo::cli::Exec>::exec
+  11: cargo::main
+  12: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  13: std::rt::lang_start::<()>::{closure#0}
+  14: core::ops::function::impls::<impl core::ops::function::FnOnce<A> for &F>::call_once
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/core/src/ops/function.rs:284:13
+  15: std::panicking::try::do_call
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panicking.rs:589:40
+  16: std::panicking::try
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panicking.rs:552:19
+  17: std::panic::catch_unwind
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panic.rs:359:14
+  18: std::rt::lang_start_internal::{{closure}}
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/rt.rs:168:24
+  19: std::panicking::try::do_call
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panicking.rs:589:40
+  20: std::panicking::try
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panicking.rs:552:19
+  21: std::panic::catch_unwind
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panic.rs:359:14
+  22: std::rt::lang_start_internal
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/rt.rs:164:5
+  23: main
+  24: __libc_start_main
+  25: <unknown>
+   0.223280926s  INFO prepare_target{force=false package_id=circom-compat v0.1.0 (/root/soloist/circom-compat) target="circom_compat"}: cargo::core::compiler::fingerprint: fingerprint dirty for circom-compat v0.1.0 (/root/soloist/circom-compat)/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("circom_compat", ["lib"], "/root/soloist/circom-compat/src/lib.rs", Edition2021) }
+   0.223298938s  INFO prepare_target{force=false package_id=circom-compat v0.1.0 (/root/soloist/circom-compat) target="circom_compat"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "ark_relations" })
+   0.223715339s  INFO prepare_target{force=false package_id=circom-compat v0.1.0 (/root/soloist/circom-compat) target="circom_compat"}: cargo::core::compiler::fingerprint: fingerprint dirty for circom-compat v0.1.0 (/root/soloist/circom-compat)/Check { test: true }/TargetInner { name_inferred: true, ..: lib_target("circom_compat", ["lib"], "/root/soloist/circom-compat/src/lib.rs", Edition2021) }
+   0.223730558s  INFO prepare_target{force=false package_id=circom-compat v0.1.0 (/root/soloist/circom-compat) target="circom_compat"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "ark_relations" })
+   0.224141633s  INFO prepare_target{force=false package_id=ark-bn254 v0.4.0 (https://github.com/zhaowenlan1779/curves?branch=optimize#a103f5db) target="ark_bn254"}: cargo::core::compiler::fingerprint: fingerprint dirty for ark-bn254 v0.4.0 (https://github.com/zhaowenlan1779/curves?branch=optimize#a103f5db)/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("ark_bn254", ["lib"], "/root/.cargo/git/checkouts/curves-7e105db59b5a4879/a103f5d/bn254/src/lib.rs", Edition2021) }
+   0.224155811s  INFO prepare_target{force=false package_id=ark-bn254 v0.4.0 (https://github.com/zhaowenlan1779/curves?branch=optimize#a103f5db) target="ark_bn254"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "ark_ec" })
+   0.224531243s  INFO prepare_target{force=false package_id=de_network v0.1.0 (/root/soloist/de_network) target="de_network"}: cargo::core::compiler::fingerprint: fingerprint dirty for de_network v0.1.0 (/root/soloist/de_network)/Check { test: true }/TargetInner { name_inferred: true, ..: lib_target("de_network", ["lib"], "/root/soloist/de_network/src/lib.rs", Edition2018) }
+   0.224545819s  INFO prepare_target{force=false package_id=de_network v0.1.0 (/root/soloist/de_network) target="de_network"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "env_logger" })
+   0.225003169s  INFO prepare_target{force=false package_id=env_logger v0.8.4 target="env_logger"}: cargo::core::compiler::fingerprint: fingerprint dirty for env_logger v0.8.4/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("env_logger", ["lib"], "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/env_logger-0.8.4/src/lib.rs", Edition2018) }
+   0.225017833s  INFO prepare_target{force=false package_id=env_logger v0.8.4 target="env_logger"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "regex" })
+   0.225258854s  INFO prepare_target{force=false package_id=my_ipa v0.4.0 (/root/soloist/ipa) target="my_ipa"}: cargo::core::compiler::fingerprint: dependency on `memchr` is newer than we are 1771931932.569084931s > 1771931930.458038367s "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/csv-core-0.1.12"
+   0.225279456s  INFO prepare_target{force=false package_id=my_ipa v0.4.0 (/root/soloist/ipa) target="my_ipa"}: cargo::core::compiler::fingerprint: dependency on `ryu` is newer than we are 1771931932.289078755s > 1771931931.529061991s "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/csv-1.3.1"
+   0.225346693s  INFO prepare_target{force=false package_id=my_ipa v0.4.0 (/root/soloist/ipa) target="my_ipa"}: cargo::core::compiler::fingerprint: fingerprint error for my_ipa v0.4.0 (/root/soloist/ipa)/Check { test: true }/TargetInner { name_inferred: true, ..: lib_target("my_ipa", ["lib"], "/root/soloist/ipa/src/lib.rs", Edition2018) }
+   0.225357490s  INFO prepare_target{force=false package_id=my_ipa v0.4.0 (/root/soloist/ipa) target="my_ipa"}: cargo::core::compiler::fingerprint:     err: failed to read `/root/soloist/target/debug/.fingerprint/my_ipa-44493a6d2b37de92/test-lib-my_ipa`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: cargo_util::paths::read_bytes
+   1: cargo_util::paths::read
+   2: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   3: cargo::core::compiler::fingerprint::prepare_target
+   4: cargo::core::compiler::compile
+   5: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   6: cargo::ops::cargo_compile::compile_ws
+   7: cargo::ops::cargo_compile::compile_with_exec
+   8: cargo::ops::cargo_compile::compile
+   9: cargo::commands::check::exec
+  10: <cargo::cli::Exec>::exec
+  11: cargo::main
+  12: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  13: std::rt::lang_start::<()>::{closure#0}
+  14: core::ops::function::impls::<impl core::ops::function::FnOnce<A> for &F>::call_once
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/core/src/ops/function.rs:284:13
+  15: std::panicking::try::do_call
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panicking.rs:589:40
+  16: std::panicking::try
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panicking.rs:552:19
+  17: std::panic::catch_unwind
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panic.rs:359:14
+  18: std::rt::lang_start_internal::{{closure}}
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/rt.rs:168:24
+  19: std::panicking::try::do_call
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panicking.rs:589:40
+  20: std::panicking::try
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panicking.rs:552:19
+  21: std::panic::catch_unwind
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panic.rs:359:14
+  22: std::rt::lang_start_internal
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/rt.rs:164:5
+  23: main
+  24: __libc_start_main
+  25: <unknown>
+   0.226084937s  INFO prepare_target{force=false package_id=csv v1.3.1 target="csv"}: cargo::core::compiler::fingerprint: fingerprint dirty for csv v1.3.1/Check { test: false }/TargetInner { benched: false, ..: lib_target("csv", ["lib"], "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/csv-1.3.1/src/lib.rs", Edition2021) }
+   0.226100689s  INFO prepare_target{force=false package_id=csv v1.3.1 target="csv"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDependency { name: "ryu", dep_mtime: FileTime { seconds: 1771931932, nanos: 289078755 }, max_mtime: FileTime { seconds: 1771931931, nanos: 529061991 } })
+   0.226299554s  INFO prepare_target{force=false package_id=csv-core v0.1.12 target="csv_core"}: cargo::core::compiler::fingerprint: fingerprint dirty for csv-core v0.1.12/Check { test: false }/TargetInner { benched: false, ..: lib_target("csv_core", ["lib"], "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/csv-core-0.1.12/src/lib.rs", Edition2018) }
+   0.226312186s  INFO prepare_target{force=false package_id=csv-core v0.1.12 target="csv_core"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDependency { name: "memchr", dep_mtime: FileTime { seconds: 1771931932, nanos: 569084931 }, max_mtime: FileTime { seconds: 1771931930, nanos: 458038367 } })
+   0.226503209s  INFO prepare_target{force=false package_id=my_ipa v0.4.0 (/root/soloist/ipa) target="mod"}: cargo::core::compiler::fingerprint: fingerprint error for my_ipa v0.4.0 (/root/soloist/ipa)/Check { test: true }/TargetInner { kind: "test", name: "mod", benched: false, ..: with_path("/root/soloist/ipa/tests/mod.rs", Edition2018) }
+   0.226515143s  INFO prepare_target{force=false package_id=my_ipa v0.4.0 (/root/soloist/ipa) target="mod"}: cargo::core::compiler::fingerprint:     err: failed to read `/root/soloist/target/debug/.fingerprint/my_ipa-8ff2c4cb83b788ca/test-integration-test-mod`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: cargo_util::paths::read_bytes
+   1: cargo_util::paths::read
+   2: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   3: cargo::core::compiler::fingerprint::prepare_target
+   4: cargo::core::compiler::compile
+   5: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   6: cargo::ops::cargo_compile::compile_ws
+   7: cargo::ops::cargo_compile::compile_with_exec
+   8: cargo::ops::cargo_compile::compile
+   9: cargo::commands::check::exec
+  10: <cargo::cli::Exec>::exec
+  11: cargo::main
+  12: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  13: std::rt::lang_start::<()>::{closure#0}
+  14: core::ops::function::impls::<impl core::ops::function::FnOnce<A> for &F>::call_once
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/core/src/ops/function.rs:284:13
+  15: std::panicking::try::do_call
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panicking.rs:589:40
+  16: std::panicking::try
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panicking.rs:552:19
+  17: std::panic::catch_unwind
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panic.rs:359:14
+  18: std::rt::lang_start_internal::{{closure}}
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/rt.rs:168:24
+  19: std::panicking::try::do_call
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panicking.rs:589:40
+  20: std::panicking::try
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panicking.rs:552:19
+  21: std::panic::catch_unwind
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panic.rs:359:14
+  22: std::rt::lang_start_internal
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/rt.rs:164:5
+  23: main
+  24: __libc_start_main
+  25: <unknown>
+   0.227258193s  INFO prepare_target{force=false package_id=my_ipa v0.4.0 (/root/soloist/ipa) target="random_r1cs"}: cargo::core::compiler::fingerprint: fingerprint error for my_ipa v0.4.0 (/root/soloist/ipa)/Check { test: true }/TargetInner { kind: "test", name: "random_r1cs", benched: false, ..: with_path("/root/soloist/ipa/tests/random_r1cs.rs", Edition2018) }
+   0.227273505s  INFO prepare_target{force=false package_id=my_ipa v0.4.0 (/root/soloist/ipa) target="random_r1cs"}: cargo::core::compiler::fingerprint:     err: failed to read `/root/soloist/target/debug/.fingerprint/my_ipa-6574439b489a10fc/test-integration-test-random_r1cs`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: cargo_util::paths::read_bytes
+   1: cargo_util::paths::read
+   2: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   3: cargo::core::compiler::fingerprint::prepare_target
+   4: cargo::core::compiler::compile
+   5: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   6: cargo::ops::cargo_compile::compile_ws
+   7: cargo::ops::cargo_compile::compile_with_exec
+   8: cargo::ops::cargo_compile::compile
+   9: cargo::commands::check::exec
+  10: <cargo::cli::Exec>::exec
+  11: cargo::main
+  12: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  13: std::rt::lang_start::<()>::{closure#0}
+  14: core::ops::function::impls::<impl core::ops::function::FnOnce<A> for &F>::call_once
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/core/src/ops/function.rs:284:13
+  15: std::panicking::try::do_call
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panicking.rs:589:40
+  16: std::panicking::try
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panicking.rs:552:19
+  17: std::panic::catch_unwind
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panic.rs:359:14
+  18: std::rt::lang_start_internal::{{closure}}
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/rt.rs:168:24
+  19: std::panicking::try::do_call
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panicking.rs:589:40
+  20: std::panicking::try
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panicking.rs:552:19
+  21: std::panic::catch_unwind
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panic.rs:359:14
+  22: std::rt::lang_start_internal
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/rt.rs:164:5
+  23: main
+  24: __libc_start_main
+  25: <unknown>
+   0.228019737s  INFO prepare_target{force=false package_id=my_kzg v0.4.0 (/root/soloist/kzg) target="my_kzg"}: cargo::core::compiler::fingerprint: fingerprint error for my_kzg v0.4.0 (/root/soloist/kzg)/Check { test: true }/TargetInner { name_inferred: true, ..: lib_target("my_kzg", ["lib"], "/root/soloist/kzg/src/lib.rs", Edition2018) }
+   0.228036474s  INFO prepare_target{force=false package_id=my_kzg v0.4.0 (/root/soloist/kzg) target="my_kzg"}: cargo::core::compiler::fingerprint:     err: failed to read `/root/soloist/target/debug/.fingerprint/my_kzg-aefc5aa3d68f61db/test-lib-my_kzg`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: cargo_util::paths::read_bytes
+   1: cargo_util::paths::read
+   2: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   3: cargo::core::compiler::fingerprint::prepare_target
+   4: cargo::core::compiler::compile
+   5: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   6: cargo::ops::cargo_compile::compile_ws
+   7: cargo::ops::cargo_compile::compile_with_exec
+   8: cargo::ops::cargo_compile::compile
+   9: cargo::commands::check::exec
+  10: <cargo::cli::Exec>::exec
+  11: cargo::main
+  12: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  13: std::rt::lang_start::<()>::{closure#0}
+  14: core::ops::function::impls::<impl core::ops::function::FnOnce<A> for &F>::call_once
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/core/src/ops/function.rs:284:13
+  15: std::panicking::try::do_call
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panicking.rs:589:40
+  16: std::panicking::try
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panicking.rs:552:19
+  17: std::panic::catch_unwind
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panic.rs:359:14
+  18: std::rt::lang_start_internal::{{closure}}
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/rt.rs:168:24
+  19: std::panicking::try::do_call
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panicking.rs:589:40
+  20: std::panicking::try
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panicking.rs:552:19
+  21: std::panic::catch_unwind
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panic.rs:359:14
+  22: std::rt::lang_start_internal
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/rt.rs:164:5
+  23: main
+  24: __libc_start_main
+  25: <unknown>
+   0.228755505s  INFO prepare_target{force=false package_id=my_kzg v0.4.0 (/root/soloist/kzg) target="de_biv_batch_kzg"}: cargo::core::compiler::fingerprint: fingerprint error for my_kzg v0.4.0 (/root/soloist/kzg)/Check { test: false }/TargetInner { kind: "example", name: "de_biv_batch_kzg", tested: false, benched: false, ..: with_path("/root/soloist/kzg/examples/de_biv_batch_kzg.rs", Edition2018) }
+   0.228770561s  INFO prepare_target{force=false package_id=my_kzg v0.4.0 (/root/soloist/kzg) target="de_biv_batch_kzg"}: cargo::core::compiler::fingerprint:     err: failed to read `/root/soloist/target/debug/.fingerprint/my_kzg-d86f16f7f3e0ae54/example-de_biv_batch_kzg`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: cargo_util::paths::read_bytes
+   1: cargo_util::paths::read
+   2: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   3: cargo::core::compiler::fingerprint::prepare_target
+   4: cargo::core::compiler::compile
+   5: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   6: cargo::ops::cargo_compile::compile_ws
+   7: cargo::ops::cargo_compile::compile_with_exec
+   8: cargo::ops::cargo_compile::compile
+   9: cargo::commands::check::exec
+  10: <cargo::cli::Exec>::exec
+  11: cargo::main
+  12: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  13: std::rt::lang_start::<()>::{closure#0}
+  14: core::ops::function::impls::<impl core::ops::function::FnOnce<A> for &F>::call_once
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/core/src/ops/function.rs:284:13
+  15: std::panicking::try::do_call
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panicking.rs:589:40
+  16: std::panicking::try
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panicking.rs:552:19
+  17: std::panic::catch_unwind
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panic.rs:359:14
+  18: std::rt::lang_start_internal::{{closure}}
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/rt.rs:168:24
+  19: std::panicking::try::do_call
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panicking.rs:589:40
+  20: std::panicking::try
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panicking.rs:552:19
+  21: std::panic::catch_unwind
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panic.rs:359:14
+  22: std::rt::lang_start_internal
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/rt.rs:164:5
+  23: main
+  24: __libc_start_main
+  25: <unknown>
+   0.229477303s  INFO prepare_target{force=false package_id=my_kzg v0.4.0 (/root/soloist/kzg) target="de_biv_batch_kzg_same_point"}: cargo::core::compiler::fingerprint: fingerprint error for my_kzg v0.4.0 (/root/soloist/kzg)/Check { test: false }/TargetInner { kind: "example", name: "de_biv_batch_kzg_same_point", tested: false, benched: false, ..: with_path("/root/soloist/kzg/examples/de_biv_batch_kzg_same_point.rs", Edition2018) }
+   0.229491547s  INFO prepare_target{force=false package_id=my_kzg v0.4.0 (/root/soloist/kzg) target="de_biv_batch_kzg_same_point"}: cargo::core::compiler::fingerprint:     err: failed to read `/root/soloist/target/debug/.fingerprint/my_kzg-07c33154cbb829c9/example-de_biv_batch_kzg_same_point`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: cargo_util::paths::read_bytes
+   1: cargo_util::paths::read
+   2: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   3: cargo::core::compiler::fingerprint::prepare_target
+   4: cargo::core::compiler::compile
+   5: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   6: cargo::ops::cargo_compile::compile_ws
+   7: cargo::ops::cargo_compile::compile_with_exec
+   8: cargo::ops::cargo_compile::compile
+   9: cargo::commands::check::exec
+  10: <cargo::cli::Exec>::exec
+  11: cargo::main
+  12: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  13: std::rt::lang_start::<()>::{closure#0}
+  14: core::ops::function::impls::<impl core::ops::function::FnOnce<A> for &F>::call_once
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/core/src/ops/function.rs:284:13
+  15: std::panicking::try::do_call
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panicking.rs:589:40
+  16: std::panicking::try
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panicking.rs:552:19
+  17: std::panic::catch_unwind
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panic.rs:359:14
+  18: std::rt::lang_start_internal::{{closure}}
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/rt.rs:168:24
+  19: std::panicking::try::do_call
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panicking.rs:589:40
+  20: std::panicking::try
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panicking.rs:552:19
+  21: std::panic::catch_unwind
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panic.rs:359:14
+  22: std::rt::lang_start_internal
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/rt.rs:164:5
+  23: main
+  24: __libc_start_main
+  25: <unknown>
+   0.230503137s  INFO prepare_target{force=false package_id=my_snark v0.4.0 (/root/soloist/snark) target="my_snark"}: cargo::core::compiler::fingerprint: dependency on `ark_ff_asm` is newer than we are 1771931962.169737837s > 1771931931.620063998s "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/ark-ff-0.3.0"
+   0.230540437s  INFO prepare_target{force=false package_id=my_snark v0.4.0 (/root/soloist/snark) target="my_snark"}: cargo::core::compiler::fingerprint: dependency on `tracing_subscriber` is newer than we are 1771931932.660086938s > 1771931931.630064219s "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/ark-relations-0.3.0"
+   0.230677522s  INFO prepare_target{force=false package_id=my_snark v0.4.0 (/root/soloist/snark) target="my_snark"}: cargo::core::compiler::fingerprint: fingerprint error for my_snark v0.4.0 (/root/soloist/snark)/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("my_snark", ["lib"], "/root/soloist/snark/src/lib.rs", Edition2018) }
+   0.230690768s  INFO prepare_target{force=false package_id=my_snark v0.4.0 (/root/soloist/snark) target="my_snark"}: cargo::core::compiler::fingerprint:     err: failed to read `/root/soloist/target/debug/.fingerprint/my_snark-3bf77a082e8deff8/lib-my_snark`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: cargo_util::paths::read_bytes
+   1: cargo_util::paths::read
+   2: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   3: cargo::core::compiler::fingerprint::prepare_target
+   4: cargo::core::compiler::compile
+   5: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   6: cargo::ops::cargo_compile::compile_ws
+   7: cargo::ops::cargo_compile::compile_with_exec
+   8: cargo::ops::cargo_compile::compile
+   9: cargo::commands::check::exec
+  10: <cargo::cli::Exec>::exec
+  11: cargo::main
+  12: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  13: std::rt::lang_start::<()>::{closure#0}
+  14: core::ops::function::impls::<impl core::ops::function::FnOnce<A> for &F>::call_once
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/core/src/ops/function.rs:284:13
+  15: std::panicking::try::do_call
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panicking.rs:589:40
+  16: std::panicking::try
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panicking.rs:552:19
+  17: std::panic::catch_unwind
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panic.rs:359:14
+  18: std::rt::lang_start_internal::{{closure}}
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/rt.rs:168:24
+  19: std::panicking::try::do_call
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panicking.rs:589:40
+  20: std::panicking::try
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panicking.rs:552:19
+  21: std::panic::catch_unwind
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panic.rs:359:14
+  22: std::rt::lang_start_internal
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/rt.rs:164:5
+  23: main
+  24: __libc_start_main
+  25: <unknown>
+   0.231394391s  INFO prepare_target{force=false package_id=ark-crypto-primitives v0.3.0 target="ark_crypto_primitives"}: cargo::core::compiler::fingerprint: fingerprint dirty for ark-crypto-primitives v0.3.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("ark_crypto_primitives", ["lib"], "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/ark-crypto-primitives-0.3.0/src/lib.rs", Edition2018) }
+   0.231417849s  INFO prepare_target{force=false package_id=ark-crypto-primitives v0.3.0 target="ark_crypto_primitives"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "ark_ec" })
+   0.231857499s  INFO prepare_target{force=false package_id=ark-ec v0.3.0 target="ark_ec"}: cargo::core::compiler::fingerprint: fingerprint dirty for ark-ec v0.3.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("ark_ec", ["lib"], "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/ark-ec-0.3.0/src/lib.rs", Edition2018) }
+   0.231871714s  INFO prepare_target{force=false package_id=ark-ec v0.3.0 target="ark_ec"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "num_traits" })
+   0.232165056s  INFO prepare_target{force=false package_id=ark-ff v0.3.0 target="ark_ff"}: cargo::core::compiler::fingerprint: fingerprint dirty for ark-ff v0.3.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("ark_ff", ["lib"], "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/ark-ff-0.3.0/src/lib.rs", Edition2018) }
+   0.232177911s  INFO prepare_target{force=false package_id=ark-ff v0.3.0 target="ark_ff"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDependency { name: "ark_ff_asm", dep_mtime: FileTime { seconds: 1771931962, nanos: 169737837 }, max_mtime: FileTime { seconds: 1771931931, nanos: 620063998 } })
+   0.232937893s  INFO prepare_target{force=false package_id=ark-serialize v0.3.0 target="ark_serialize"}: cargo::core::compiler::fingerprint: fingerprint dirty for ark-serialize v0.3.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("ark_serialize", ["lib"], "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/ark-serialize-0.3.0/src/lib.rs", Edition2018) }
+   0.232955172s  INFO prepare_target{force=false package_id=ark-serialize v0.3.0 target="ark_serialize"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "digest" })
+   0.233204265s  INFO prepare_target{force=false package_id=ark-std v0.3.0 target="ark_std"}: cargo::core::compiler::fingerprint: fingerprint dirty for ark-std v0.3.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("ark_std", ["lib"], "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/ark-std-0.3.0/src/lib.rs", Edition2018) }
+   0.233217285s  INFO prepare_target{force=false package_id=ark-std v0.3.0 target="ark_std"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "num_traits" })
+   0.233392883s  INFO prepare_target{force=false package_id=ark-nonnative-field v0.3.0 target="ark_nonnative_field"}: cargo::core::compiler::fingerprint: fingerprint dirty for ark-nonnative-field v0.3.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("ark_nonnative_field", ["lib"], "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/ark-nonnative-field-0.3.0/src/lib.rs", Edition2018) }
+   0.233432063s  INFO prepare_target{force=false package_id=ark-nonnative-field v0.3.0 target="ark_nonnative_field"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "ark_ec" })
+   0.233824842s  INFO prepare_target{force=false package_id=ark-r1cs-std v0.3.1 target="ark_r1cs_std"}: cargo::core::compiler::fingerprint: fingerprint dirty for ark-r1cs-std v0.3.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("ark_r1cs_std", ["lib"], "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/ark-r1cs-std-0.3.1/src/lib.rs", Edition2018) }
+   0.233838408s  INFO prepare_target{force=false package_id=ark-r1cs-std v0.3.1 target="ark_r1cs_std"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "ark_ec" })
+   0.234161901s  INFO prepare_target{force=false package_id=ark-relations v0.3.0 target="ark_relations"}: cargo::core::compiler::fingerprint: fingerprint dirty for ark-relations v0.3.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("ark_relations", ["lib"], "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/ark-relations-0.3.0/src/lib.rs", Edition2018) }
+   0.234175039s  INFO prepare_target{force=false package_id=ark-relations v0.3.0 target="ark_relations"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDependency { name: "tracing_subscriber", dep_mtime: FileTime { seconds: 1771931932, nanos: 660086938 }, max_mtime: FileTime { seconds: 1771931931, nanos: 630064219 } })
+   0.234465301s  INFO prepare_target{force=false package_id=ark-snark v0.3.0 target="ark_snark"}: cargo::core::compiler::fingerprint: fingerprint dirty for ark-snark v0.3.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("ark_snark", ["lib"], "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/ark-snark-0.3.0/src/lib.rs", Edition2018) }
+   0.234477500s  INFO prepare_target{force=false package_id=ark-snark v0.3.0 target="ark_snark"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "ark_relations" })
+   0.234726077s  INFO prepare_target{force=false package_id=blake2 v0.9.2 target="blake2"}: cargo::core::compiler::fingerprint: fingerprint dirty for blake2 v0.9.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("blake2", ["lib"], "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/blake2-0.9.2/src/lib.rs", Edition2018) }
+   0.234738821s  INFO prepare_target{force=false package_id=blake2 v0.9.2 target="blake2"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "crypto_mac" })
+   0.234903314s  INFO prepare_target{force=false package_id=crypto-mac v0.8.0 target="crypto_mac"}: cargo::core::compiler::fingerprint: fingerprint dirty for crypto-mac v0.8.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("crypto_mac", ["lib"], "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/crypto-mac-0.8.0/src/lib.rs", Edition2018) }
+   0.234914894s  INFO prepare_target{force=false package_id=crypto-mac v0.8.0 target="crypto_mac"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "generic_array" })
+   0.235063400s  INFO prepare_target{force=false package_id=bincode v1.3.3 target="bincode"}: cargo::core::compiler::fingerprint: fingerprint dirty for bincode v1.3.3/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("bincode", ["lib"], "/root/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/bincode-1.3.3/src/lib.rs", Edition2015) }
+   0.235074697s  INFO prepare_target{force=false package_id=bincode v1.3.3 target="bincode"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "serde" })
+   0.235273436s  INFO prepare_target{force=false package_id=my_snark v0.4.0 (/root/soloist/snark) target="my_snark"}: cargo::core::compiler::fingerprint: fingerprint error for my_snark v0.4.0 (/root/soloist/snark)/Check { test: true }/TargetInner { name_inferred: true, ..: lib_target("my_snark", ["lib"], "/root/soloist/snark/src/lib.rs", Edition2018) }
+   0.235286978s  INFO prepare_target{force=false package_id=my_snark v0.4.0 (/root/soloist/snark) target="my_snark"}: cargo::core::compiler::fingerprint:     err: failed to read `/root/soloist/target/debug/.fingerprint/my_snark-697f79702447e7a6/test-lib-my_snark`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: cargo_util::paths::read_bytes
+   1: cargo_util::paths::read
+   2: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   3: cargo::core::compiler::fingerprint::prepare_target
+   4: cargo::core::compiler::compile
+   5: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   6: cargo::ops::cargo_compile::compile_ws
+   7: cargo::ops::cargo_compile::compile_with_exec
+   8: cargo::ops::cargo_compile::compile
+   9: cargo::commands::check::exec
+  10: <cargo::cli::Exec>::exec
+  11: cargo::main
+  12: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  13: std::rt::lang_start::<()>::{closure#0}
+  14: core::ops::function::impls::<impl core::ops::function::FnOnce<A> for &F>::call_once
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/core/src/ops/function.rs:284:13
+  15: std::panicking::try::do_call
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panicking.rs:589:40
+  16: std::panicking::try
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panicking.rs:552:19
+  17: std::panic::catch_unwind
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panic.rs:359:14
+  18: std::rt::lang_start_internal::{{closure}}
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/rt.rs:168:24
+  19: std::panicking::try::do_call
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panicking.rs:589:40
+  20: std::panicking::try
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panicking.rs:552:19
+  21: std::panic::catch_unwind
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panic.rs:359:14
+  22: std::rt::lang_start_internal
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/rt.rs:164:5
+  23: main
+  24: __libc_start_main
+  25: <unknown>
+   0.236210880s  INFO prepare_target{force=false package_id=r1cs-distributify v0.1.0 (/root/soloist/r1cs-distributify) target="r1cs_distributify"}: cargo::core::compiler::fingerprint: fingerprint dirty for r1cs-distributify v0.1.0 (/root/soloist/r1cs-distributify)/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("r1cs_distributify", ["lib"], "/root/soloist/r1cs-distributify/src/lib.rs", Edition2021) }
+   0.236228866s  INFO prepare_target{force=false package_id=r1cs-distributify v0.1.0 (/root/soloist/r1cs-distributify) target="r1cs_distributify"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "clap" })
+   0.236676074s  INFO prepare_target{force=false package_id=my_snark v0.4.0 (/root/soloist/snark) target="snark_circom"}: cargo::core::compiler::fingerprint: fingerprint error for my_snark v0.4.0 (/root/soloist/snark)/Check { test: false }/TargetInner { kind: "example", name: "snark_circom", tested: false, benched: false, ..: with_path("/root/soloist/snark/examples/snark_circom.rs", Edition2018) }
+   0.236690284s  INFO prepare_target{force=false package_id=my_snark v0.4.0 (/root/soloist/snark) target="snark_circom"}: cargo::core::compiler::fingerprint:     err: failed to read `/root/soloist/target/debug/.fingerprint/my_snark-ea3683df254d3a59/example-snark_circom`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: cargo_util::paths::read_bytes
+   1: cargo_util::paths::read
+   2: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   3: cargo::core::compiler::fingerprint::prepare_target
+   4: cargo::core::compiler::compile
+   5: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   6: cargo::ops::cargo_compile::compile_ws
+   7: cargo::ops::cargo_compile::compile_with_exec
+   8: cargo::ops::cargo_compile::compile
+   9: cargo::commands::check::exec
+  10: <cargo::cli::Exec>::exec
+  11: cargo::main
+  12: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  13: std::rt::lang_start::<()>::{closure#0}
+  14: core::ops::function::impls::<impl core::ops::function::FnOnce<A> for &F>::call_once
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/core/src/ops/function.rs:284:13
+  15: std::panicking::try::do_call
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panicking.rs:589:40
+  16: std::panicking::try
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panicking.rs:552:19
+  17: std::panic::catch_unwind
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panic.rs:359:14
+  18: std::rt::lang_start_internal::{{closure}}
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/rt.rs:168:24
+  19: std::panicking::try::do_call
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panicking.rs:589:40
+  20: std::panicking::try
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panicking.rs:552:19
+  21: std::panic::catch_unwind
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panic.rs:359:14
+  22: std::rt::lang_start_internal
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/rt.rs:164:5
+  23: main
+  24: __libc_start_main
+  25: <unknown>
+   0.237639377s  INFO prepare_target{force=false package_id=my_snark v0.4.0 (/root/soloist/snark) target="snark_circom_non_dp"}: cargo::core::compiler::fingerprint: fingerprint error for my_snark v0.4.0 (/root/soloist/snark)/Check { test: false }/TargetInner { kind: "example", name: "snark_circom_non_dp", tested: false, benched: false, ..: with_path("/root/soloist/snark/examples/snark_circom_non_dp.rs", Edition2018) }
+   0.237656387s  INFO prepare_target{force=false package_id=my_snark v0.4.0 (/root/soloist/snark) target="snark_circom_non_dp"}: cargo::core::compiler::fingerprint:     err: failed to read `/root/soloist/target/debug/.fingerprint/my_snark-82f4291462b7c173/example-snark_circom_non_dp`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: cargo_util::paths::read_bytes
+   1: cargo_util::paths::read
+   2: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   3: cargo::core::compiler::fingerprint::prepare_target
+   4: cargo::core::compiler::compile
+   5: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   6: cargo::ops::cargo_compile::compile_ws
+   7: cargo::ops::cargo_compile::compile_with_exec
+   8: cargo::ops::cargo_compile::compile
+   9: cargo::commands::check::exec
+  10: <cargo::cli::Exec>::exec
+  11: cargo::main
+  12: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  13: std::rt::lang_start::<()>::{closure#0}
+  14: core::ops::function::impls::<impl core::ops::function::FnOnce<A> for &F>::call_once
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/core/src/ops/function.rs:284:13
+  15: std::panicking::try::do_call
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panicking.rs:589:40
+  16: std::panicking::try
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panicking.rs:552:19
+  17: std::panic::catch_unwind
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panic.rs:359:14
+  18: std::rt::lang_start_internal::{{closure}}
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/rt.rs:168:24
+  19: std::panicking::try::do_call
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panicking.rs:589:40
+  20: std::panicking::try
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panicking.rs:552:19
+  21: std::panic::catch_unwind
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panic.rs:359:14
+  22: std::rt::lang_start_internal
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/rt.rs:164:5
+  23: main
+  24: __libc_start_main
+  25: <unknown>
+   0.238606406s  INFO prepare_target{force=false package_id=my_snark v0.4.0 (/root/soloist/snark) target="snark_nopre"}: cargo::core::compiler::fingerprint: fingerprint error for my_snark v0.4.0 (/root/soloist/snark)/Check { test: false }/TargetInner { kind: "example", name: "snark_nopre", tested: false, benched: false, ..: with_path("/root/soloist/snark/examples/snark_nopre.rs", Edition2018) }
+   0.238622336s  INFO prepare_target{force=false package_id=my_snark v0.4.0 (/root/soloist/snark) target="snark_nopre"}: cargo::core::compiler::fingerprint:     err: failed to read `/root/soloist/target/debug/.fingerprint/my_snark-88ee5c358a2ac8f3/example-snark_nopre`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: cargo_util::paths::read_bytes
+   1: cargo_util::paths::read
+   2: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   3: cargo::core::compiler::fingerprint::prepare_target
+   4: cargo::core::compiler::compile
+   5: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   6: cargo::ops::cargo_compile::compile_ws
+   7: cargo::ops::cargo_compile::compile_with_exec
+   8: cargo::ops::cargo_compile::compile
+   9: cargo::commands::check::exec
+  10: <cargo::cli::Exec>::exec
+  11: cargo::main
+  12: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  13: std::rt::lang_start::<()>::{closure#0}
+  14: core::ops::function::impls::<impl core::ops::function::FnOnce<A> for &F>::call_once
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/core/src/ops/function.rs:284:13
+  15: std::panicking::try::do_call
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panicking.rs:589:40
+  16: std::panicking::try
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panicking.rs:552:19
+  17: std::panic::catch_unwind
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panic.rs:359:14
+  18: std::rt::lang_start_internal::{{closure}}
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/rt.rs:168:24
+  19: std::panicking::try::do_call
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panicking.rs:589:40
+  20: std::panicking::try
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panicking.rs:552:19
+  21: std::panic::catch_unwind
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panic.rs:359:14
+  22: std::rt::lang_start_internal
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/rt.rs:164:5
+  23: main
+  24: __libc_start_main
+  25: <unknown>
+   0.239586418s  INFO prepare_target{force=false package_id=my_snark v0.4.0 (/root/soloist/snark) target="snark_pre"}: cargo::core::compiler::fingerprint: fingerprint error for my_snark v0.4.0 (/root/soloist/snark)/Check { test: false }/TargetInner { kind: "example", name: "snark_pre", tested: false, benched: false, ..: with_path("/root/soloist/snark/examples/snark_pre.rs", Edition2018) }
+   0.239601384s  INFO prepare_target{force=false package_id=my_snark v0.4.0 (/root/soloist/snark) target="snark_pre"}: cargo::core::compiler::fingerprint:     err: failed to read `/root/soloist/target/debug/.fingerprint/my_snark-e34ea1d3a2a0c704/example-snark_pre`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: cargo_util::paths::read_bytes
+   1: cargo_util::paths::read
+   2: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   3: cargo::core::compiler::fingerprint::prepare_target
+   4: cargo::core::compiler::compile
+   5: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   6: cargo::ops::cargo_compile::compile_ws
+   7: cargo::ops::cargo_compile::compile_with_exec
+   8: cargo::ops::cargo_compile::compile
+   9: cargo::commands::check::exec
+  10: <cargo::cli::Exec>::exec
+  11: cargo::main
+  12: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  13: std::rt::lang_start::<()>::{closure#0}
+  14: core::ops::function::impls::<impl core::ops::function::FnOnce<A> for &F>::call_once
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/core/src/ops/function.rs:284:13
+  15: std::panicking::try::do_call
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panicking.rs:589:40
+  16: std::panicking::try
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panicking.rs:552:19
+  17: std::panic::catch_unwind
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panic.rs:359:14
+  18: std::rt::lang_start_internal::{{closure}}
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/rt.rs:168:24
+  19: std::panicking::try::do_call
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panicking.rs:589:40
+  20: std::panicking::try
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panicking.rs:552:19
+  21: std::panic::catch_unwind
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/panic.rs:359:14
+  22: std::rt::lang_start_internal
+             at /rustc/fedf10752b973d83f3f7c0f819b2659c21a634de/library/std/src/rt.rs:164:5
+  23: main
+  24: __libc_start_main
+  25: <unknown>
+   0.240540359s  INFO prepare_target{force=false package_id=r1cs-distributify v0.1.0 (/root/soloist/r1cs-distributify) target="r1cs_distributify"}: cargo::core::compiler::fingerprint: fingerprint dirty for r1cs-distributify v0.1.0 (/root/soloist/r1cs-distributify)/Check { test: true }/TargetInner { name_inferred: true, ..: lib_target("r1cs_distributify", ["lib"], "/root/soloist/r1cs-distributify/src/lib.rs", Edition2021) }
+   0.240556694s  INFO prepare_target{force=false package_id=r1cs-distributify v0.1.0 (/root/soloist/r1cs-distributify) target="r1cs_distributify"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "clap" })
+   0.240992975s  INFO prepare_target{force=false package_id=r1cs-distributify v0.1.0 (/root/soloist/r1cs-distributify) target="r1cs-distributify"}: cargo::core::compiler::fingerprint: fingerprint dirty for r1cs-distributify v0.1.0 (/root/soloist/r1cs-distributify)/Check { test: false }/TargetInner { name: "r1cs-distributify", doc: true, ..: with_path("/root/soloist/r1cs-distributify/src/main.rs", Edition2021) }
+   0.241007412s  INFO prepare_target{force=false package_id=r1cs-distributify v0.1.0 (/root/soloist/r1cs-distributify) target="r1cs-distributify"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "clap" })
+   0.241469820s  INFO prepare_target{force=false package_id=r1cs-distributify v0.1.0 (/root/soloist/r1cs-distributify) target="r1cs-distributify"}: cargo::core::compiler::fingerprint: fingerprint dirty for r1cs-distributify v0.1.0 (/root/soloist/r1cs-distributify)/Check { test: true }/TargetInner { name: "r1cs-distributify", doc: true, ..: with_path("/root/soloist/r1cs-distributify/src/main.rs", Edition2021) }
+   0.241484513s  INFO prepare_target{force=false package_id=r1cs-distributify v0.1.0 (/root/soloist/r1cs-distributify) target="r1cs-distributify"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "clap" })
+    Checking itertools v0.10.5
+    Checking itertools v0.13.0
+    Checking csv-core v0.1.12
+    Checking aho-corasick v1.1.3
+    Checking libc v0.2.171
+    Checking typenum v1.18.0
+    Checking zerocopy v0.8.24
+    Checking crossbeam-utils v0.8.21
+    Checking anstream v0.6.18
+    Checking num-traits v0.2.19
+    Checking ahash v0.8.11
+    Checking zeroize v1.8.1
+    Checking tracing v0.1.41
+    Checking serde v1.0.219
+    Checking generic-array v0.14.7
+    Checking num-integer v0.1.46
+    Checking hashbrown v0.13.2
+    Checking clap_builder v4.5.35
+    Checking getrandom v0.2.15
+    Checking crossbeam-epoch v0.9.18
+    Checking atty v0.2.14
+    Checking is-terminal v0.4.16
+    Checking plotters v0.3.7
+    Checking regex-automata v0.4.9
+    Checking crossbeam-deque v0.8.6
+    Checking num-bigint v0.4.6
+    Checking rand_core v0.6.4
+    Checking ppv-lite86 v0.2.21
+    Checking criterion-plot v0.5.0
+    Checking clap v2.34.0
+    Checking crypto-common v0.1.6
+    Checking block-buffer v0.10.4
+    Checking digest v0.9.0
+    Checking block-buffer v0.9.0
+    Checking crypto-mac v0.8.0
+    Checking rayon-core v1.12.1
+    Checking merlin v3.0.0
+    Checking csv v1.3.1
+    Checking bincode v1.3.3
+    Checking serde_json v1.0.140
+    Checking ciborium v0.2.2
+    Checking rand_chacha v0.3.1
+    Checking digest v0.10.7
+    Checking rayon v1.10.0
+    Checking sha2 v0.9.9
+    Checking clap v4.5.35
+    Checking blake2 v0.9.2
+    Checking regex v1.11.1
+    Checking tinytemplate v1.2.1
+    Checking rand v0.8.5
+    Checking blake2 v0.10.6
+    Checking sha2 v0.10.8
+    Checking structopt v0.3.26
+    Checking env_logger v0.8.4
+    Checking ark-std v0.3.0
+    Checking ark-std v0.4.0
+    Checking criterion v0.5.1
+    Checking ark-serialize v0.3.0
+    Checking ark-serialize v0.4.2 (https://github.com/zhaowenlan1779/algebra?branch=optimize#2d3274c9)
+    Checking ark-ff v0.3.0
+    Checking ark-ff v0.4.2 (https://github.com/zhaowenlan1779/algebra?branch=optimize#2d3274c9)
+    Checking de_network v0.1.0 (/root/soloist/de_network)
+    Checking ark-relations v0.3.0
+    Checking ark-ec v0.3.0
+    Checking ark-snark v0.3.0
+    Checking ark-r1cs-std v0.3.1
+    Checking ark-poly v0.4.2 (https://github.com/zhaowenlan1779/algebra?branch=optimize#2d3274c9)
+    Checking ark-relations v0.4.0 (https://github.com/zhaowenlan1779/snark?branch=optimize#df4439c8)
+    Checking ark-poly v0.4.2
+    Checking circom-compat v0.1.0 (/root/soloist/circom-compat)
+    Checking ark-snark v0.4.0
+    Checking ark-ec v0.4.2 (https://github.com/zhaowenlan1779/algebra?branch=optimize#2d3274c9)
+    Checking ark-nonnative-field v0.3.0
+    Checking ark-r1cs-std v0.4.0
+    Checking my_kzg v0.4.0 (/root/soloist/kzg)
+    Checking ark-bls12-381 v0.4.0-alpha.2 (https://github.com/zhaowenlan1779/curves?branch=optimize#a103f5db)
+    Checking ark-bn254 v0.4.0 (https://github.com/zhaowenlan1779/curves?branch=optimize#a103f5db)
+    Checking ark-crypto-primitives v0.3.0
+    Checking r1cs-distributify v0.1.0 (/root/soloist/r1cs-distributify)
+error: could not compile `my_kzg` (lib) due to 186 previous errors
+warning: build failed, waiting for other jobs to finish...
+    Checking ark-ed-on-bls12-381 v0.4.0-alpha.2
+    Checking ark-crypto-primitives v0.4.0
+error: could not compile `my_kzg` (lib test) due to 193 previous errors

@@ -1,0 +1,21 @@
+[workspace]
+
+members = [
+  "benches",
+  "circom-compat",
+  "kzg",
+  "ipa",
+  "r1cs-distributify",
+  "snark",
+]
+
+[patch.crates-io]
+ark-ff = { git = "https://github.com/zhaowenlan1779/algebra", branch = "optimize" }
+ark-ec = { git = "https://github.com/zhaowenlan1779/algebra", branch = "optimize" }
+ark-serialize = { git = "https://github.com/zhaowenlan1779/algebra", branch = "optimize" }
+ark-bn254 = { git = "https://github.com/zhaowenlan1779/curves", branch = "optimize" }
+ark-bls12-381 = { git = "https://github.com/zhaowenlan1779/curves", branch = "optimize" }
+ark-relations = { git = "https://github.com/zhaowenlan1779/snark", branch = "optimize" }
+
+[profile.release]
+lto = "fat"

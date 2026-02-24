@@ -1,0 +1,30 @@
+[package]
+name = "r1cs-distributify"
+version = "0.1.0"
+description = "Rewrite R1CS files to make them more friendly to distributed proof generation"
+edition = "2021"
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ark-ff = { version = "^0.4.0", default-features = false, features = ["asm"] }
+ark-poly = { version = "^0.4.0", default-features = false }
+ark-std = { version = "^0.4.0", default-features = false }
+rayon = { version = "1.5.2", default-features = false, optional = true }
+circom-compat = { path = "../circom-compat" }
+ark-bn254 = { version = "0.4.0", features = [ "curve" ] }
+clap = { version = "4.5.31", features = [ "derive" ] }
+
+[features]
+# default = [ ]
+# default = [ "parallel" ]
+# default = [ "parallel", "print-trace" ]
+default = ["parallel"]
+bench = ["parallel"]
+parallel = [ 
+    "rayon",
+    "ark-std/parallel",
+    "ark-ff/parallel",
+    ]
+print-trace = [ 
+    "ark-std/print-trace",
+    ]

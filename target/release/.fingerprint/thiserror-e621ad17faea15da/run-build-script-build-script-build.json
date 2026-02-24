@@ -1,0 +1,1 @@
+{"rustc":6330532713478783523,"features":"","declared_features":"","target":0,"profile":0,"path":0,"deps":[[10806645703491011684,"build_script_build",false,12228380899752873374]],"local":[{"RerunIfChanged":{"output":"release/build/thiserror-e621ad17faea15da/output","paths":["build/probe.rs"]}}],"rustflags":["-C","target-cpu=native"],"config":0,"compile_kind":0}

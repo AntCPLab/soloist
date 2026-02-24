@@ -1,0 +1,35 @@
+[package]
+name = "my_ipa"
+version = "0.4.0"
+edition = "2018"
+
+[dependencies]
+ark-ec = { version = "0.4", default-features = false }
+ark-ff = { version = "0.4", features = [ "asm" ], optional = true}
+ark-poly = { version = "0.4", default-features = false }
+ark-std = { version = "0.4", default-features = false }
+ark-serialize = { version = "0.4.2", features = [ "derive" ] }
+digest = "0.10.7"
+num-traits = "0.2"
+itertools = "0.13.0"
+rayon = { version = "1", optional = true }
+merlin = "3.0.0"
+my_kzg = { path = "../kzg" }
+de_network = { version = "0.1.0", path = "../de_network"}
+structopt = "0.3"
+ark-relations = "0.4"
+
+[dev-dependencies]
+ark-bls12-381 = { version = "0.4.0-alpha.2", features = [ "curve", "asm" ] }
+ark-ed-on-bls12-381 = "0.4.0-alpha.2"
+
+ark-r1cs-std = "0.4"
+blake2 = "0.10.6"
+
+csv = "1"
+
+[features]
+default = [ "parallel" ]
+parallel = [ "rayon", "ark-ec/parallel", "ark-ff/parallel", "ark-poly/parallel", "ark-std/parallel", "ark-relations/parallel"]
+print-trace = [ "ark-std/print-trace" ]
+asm = [ "ark-ff" ]
